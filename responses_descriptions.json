@@ -1,0 +1,104 @@
+{
+  "gear_actions": {
+    "tie_knot": [
+      {
+        "text": "You tie a knot with the precision of a master craftsman. It's either a perfect blood knot or you've accidentally invented a new form of modern art.",
+        "effects": {
+          "determination": 5,
+          "dignity": 3
+        }
+      },
+      {
+        "text": "Your knot-tying session results in what can only be described as a three-dimensional puzzle that would challenge a mathematician.",
+        "effects": {
+          "determination": -3,
+          "dignity": -5
+        }
+      }
+    ],
+    "clean_glasses": [
+      {
+        "text": "You clean your glasses with meticulous care. The world comes into sharp focus, revealing just how badly your last cast went.",
+        "effects": {
+          "determination": 3,
+          "dignity": 2
+        }
+      },
+      {
+        "text": "You clean your glasses, only to realize the problem wasn't your vision - reality really is this absurd.",
+        "effects": {
+          "determination": -2,
+          "dignity": 1
+        }
+      }
+    ],
+    "adjust_hat": [
+      {
+        "text": "You adjust your hat to the perfect angle of scholarly contemplation. You feel 23% more distinguished.",
+        "effects": {
+          "determination": 5,
+          "dignity": 8,
+          "hat_status": "perfectly positioned"
+        }
+      },
+      {
+        "text": "You adjust your hat, but it seems to have developed its own opinions about proper positioning.",
+        "effects": {
+          "determination": 2,
+          "dignity": -3,
+          "hat_status": "rebellious"
+        }
+      }
+    ],
+    "change_fly": [
+      {
+        "text": "You select a different fly with the care of a wine connoisseur choosing a vintage. This one has 'success' written all over it.",
+        "effects": {
+          "determination": 8,
+          "dignity": 5
+        }
+      },
+      {
+        "text": "You change flies with scientific precision, though the fish appear to have formed a committee to discuss your tactical choices.",
+        "effects": {
+          "determination": 3,
+          "dignity": 2
+        }
+      }
+    ]
+  },
+  "information": {
+    "check_time": [
+      {
+        "text": "Your pocket watch indicates it's precisely the time when fish traditionally ignore all human endeavors. How convenient.",
+        "effects": {
+          "determination": -2,
+          "dignity": 3
+        }
+      },
+      {
+        "text": "According to your calculations, you've been fishing for exactly long enough to question all your life choices.",
+        "effects": {
+          "determination": -5,
+          "dignity": 2
+        }
+      }
+    ],
+    "check_weather": [
+      {
+        "text": "The weather is behaving with typical British unpredictability. It's simultaneously perfect for fishing and completely wrong for fishing.",
+        "effects": {
+          "determination": 2,
+          "dignity": 1
+        }
+      },
+      {
+        "text": "The meteorological conditions suggest that somewhere, in a parallel universe, you're probably catching fish.",
+        "effects": {
+          "determination": -3,
+          "dignity": 5
+        }
+      }
+    ]
+  }
+}

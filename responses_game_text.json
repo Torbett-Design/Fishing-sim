@@ -1,0 +1,63 @@
+{
+  "game_intro": {
+    "title": "HARVEY TORBETT FLY FISHING SIMULATOR",
+    "subtitle": "A Thoroughly British Angling Adventure",
+    "tagline": "Featuring the Collected Wisdom of a Gentleman Scholar",
+    "research_topic": "Advanced Techniques in Aquatic Disappointment"
+  },
+  "game_over": {
+    "no_determination": "{player_name} has lost all determination and sits down to write a strongly worded letter to The Times about the declining standards of modern fish.",
+    "give_up": [
+      "{player_name} packs up his gear with the dignity of a gentleman scholar.",
+      "Perhaps today's experiences will make an excellent chapter in his next book...",
+      "Final inspiration level: {inspiration_level}%"
+    ]
+  },
+  "help_text": {
+    "title": "AVAILABLE COMMANDS",
+    "sections": {
+      "basic_fishing": "Basic Fishing: attach rod, attach fly, cast rod, reel in",
+      "gear_management": "Gear Management: check gear, change fly, tie knot",
+      "personal_care": "Personal Care: eat sandwich, adjust hat, clean glasses",
+      "movement": "Movement: wade deeper",
+      "information": "Information: look, check weather, check time, stats, where am i, location info",
+      "scholarship": "Harvey's Scholarship: quote, lecture, take notes, bibliography, contemplate, theorize",
+      "desperation": "Desperation: whistle, pray, curse, dance, sing, meditate",
+      "escape": "Escape: give up, go home, quit"
+    }
+  },
+  "status_displays": {
+    "gear_title": "GEAR STATUS",
+    "stats_title": "HARVEY TORBETT STATUS REPORT",
+    "bibliography_title": "THE COLLECTED WORKS OF HARVEY TORBETT",
+    "bibliography_sections": {
+      "fishing": "ANGLING LITERATURE:",
+      "general": "GENERAL SCHOLARSHIP:"
+    }
+  },
+  "error_messages": {
+    "unknown_command": "Harvey adjusts his spectacles and politely suggests you try a different approach.",
+    "try_help": "Type 'help' for available commands."
+  },
+  "contemplations": [
+    "You ponder the existential implications of a universe where fish appear to have better tactical awareness than most military strategists.",
+    "Harvey contemplates whether his fishing failures are actually a form of performance art, and if so, whether he should be charging admission.",
+    "You reflect on the possibility that you're not fishing for trout at all, but rather being fished for by some cosmic angler with a sense of irony.",
+    "Harvey considers the philosophical question: If a fly fisher casts in a river and no one witnesses the resulting chaos, did it really happen?",
+    "You contemplate adding a new chapter to your philosophy of angling: 'The Zen of Accepting That Fish Are Smarter Than You.'"
+  ],
+  "theories": [
+    "You begin formulating the 'Torbett Principle': The probability of angling success is inversely proportional to the number of witnesses present.",
+    "Harvey develops his 'Chaos Theory of Fly Fishing': Every cast exists in a superposition of success and disaster until observed by a trout.",
+    "You theorize that rivers possess a collective consciousness that communicates fishing conditions to all aquatic life via some form of underwater internet.",
+    "Harvey proposes the 'Conservation of Angling Dignity': Dignity can neither be created nor destroyed, only transferred from angler to fish.",
+    "You develop a new academic framework: 'Post-Modern Angling Theory' - the idea that fishing is actually a collaborative performance piece between human and fish."
+  ],
+  "notes": [
+    "You carefully document the precise angle of that last catastrophic cast for your upcoming paper on 'Geometric Failures in Fly Fishing.'",
+    "Harvey sketches the trajectory of his fly line, noting its remarkable resemblance to a Fibonacci spiral gone horribly wrong.",
+    "You make detailed notes about the apparent intelligence of local waterfowl, wondering if they're suitable subjects for your next behavioral study.",
+    "Harvey records the exact time and weather conditions, building a comprehensive database of 'Optimal Conditions for Angling Disasters.'",
+    "You begin drafting a footnote for your next book about the philosophical implications of fishing in a universe that clearly has other plans."
+  ]
+}

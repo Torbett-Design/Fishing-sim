@@ -1,0 +1,202 @@
+{
+  "environmental": {
+    "random_events": [
+      {
+        "text": "A gentle breeze picks up, carrying with it the scent of wild roses and the distant sound of cricket on the village green."
+      },
+      {
+        "text": "The weather takes a turn for the dramatic. It's now raining upwards."
+      },
+      {
+        "text": "A passing narrowboat has stopped to offer you tea and biscuits. The captain appears to be a badger."
+      },
+      {
+        "text": "Your sandwich has achieved sentience and is now critiquing your casting technique."
+      },
+      {
+        "text": "The local wildlife has formed a brass band and is playing 'Jerusalem' rather enthusiastically."
+      },
+      {
+        "text": "A group of morris dancers has appeared from nowhere and insists on performing around your fishing spot."
+      },
+      {
+        "text": "The river has developed a strong Yorkshire accent and keeps offering unsolicited advice about proper fishing technique."
+      },
+      {
+        "text": "A family of swans has appointed itself as your personal angling critique committee. Their reviews are harsh but fair."
+      },
+      {
+        "text": "The local church bells begin playing 'God Save the King' in what can only be described as interpretive campanology."
+      },
+      {
+        "text": "A distinguished gentleman in Victorian dress tips his hat and compliments your 'modern angling apparatus' before vanishing into thin air."
+      },
+      {
+        "text": "The fish have organized a protest march. Their demands include better fly patterns and more realistic casting techniques."
+      },
+      {
+        "text": "A hot air balloon drifts overhead, its passengers shouting encouragement and fishing advice in what sounds like ancient Latin."
+      },
+      {
+        "text": "The local postman arrives by punt to deliver what appears to be a strongly worded letter from the Angling Standards Authority."
+      },
+      {
+        "text": "A group of academic-looking ducks has gathered to observe your technique. One appears to be taking notes."
+      },
+      {
+        "text": "The village cricket team has declared a tea break and wandered over to offer commentary on your casting form."
+      },
+      {
+        "text": "A mysterious fog rolls in, carrying with it the faint sound of Gregorian chanting and the smell of fish and chips."
+      },
+      {
+        "text": "The local wildlife has formed a queue behind you, apparently waiting their turn to try fishing."
+      },
+      {
+        "text": "A passing rambler stops to inform you that you're fishing in a location that doesn't technically exist on any map."
+      },
+      {
+        "text": "The river suddenly develops perfect mirror-like clarity, revealing that the fish below are playing cards and ignoring your fly entirely."
+      },
+      {
+        "text": "A small delegation of garden gnomes has appeared to observe your angling technique. Their expressions suggest professional interest."
+      }
+    ]
+  },
+  "information": {
+    "check_time": [
+      {
+        "text": "Your watch indicates it's teatime, which explains everything."
+      },
+      {
+        "text": "According to your timepiece, it's currently next Thursday."
+      },
+      {
+        "text": "Time appears to have stopped, possibly out of embarrassment."
+      },
+      {
+        "text": "Your pocket watch suggests it's precisely the moment when fish traditionally ignore all human endeavors."
+      },
+      {
+        "text": "The time is exactly 'too early for success, too late for excuses.'"
+      },
+      {
+        "text": "Your watch indicates that somewhere in the world, someone is probably catching fish. Just not here."
+      },
+      {
+        "text": "According to your calculations, you've been fishing for exactly long enough to question all your life choices."
+      },
+      {
+        "text": "The time is 'half past disappointment, quarter to resignation.'"
+      },
+      {
+        "text": "Your watch cheerfully announces that it's 'the perfect time for philosophical reflection on the nature of angling failure.'"
+      }
+    ],
+    "check_weather": [
+      {
+        "text": "The weather is absolutely perfect for fishing, which is precisely why nothing will go according to plan."
+      },
+      {
+        "text": "Light drizzle is beginning, which in Hampshire means you have approximately 30 seconds before the apocalypse."
+      },
+      {
+        "text": "The sun is shining brilliantly, causing the fish to don tiny sunglasses and refuse to cooperate."
+      },
+      {
+        "text": "A gentle mist is rising from the water, carrying with it the dreams of frustrated anglers."
+      },
+      {
+        "text": "The weather has achieved consciousness and is now taking requests."
+      },
+      {
+        "text": "The meteorological conditions suggest that somewhere, in a parallel universe, you're probably catching fish."
+      },
+      {
+        "text": "The weather is behaving with typical British unpredictability - simultaneously perfect and completely wrong for fishing."
+      },
+      {
+        "text": "The barometric pressure indicates 'optimal conditions for aquatic disappointment.'"
+      },
+      {
+        "text": "The weather forecast called for 'scattered showers with a chance of angling success.' The showers arrived on schedule."
+      },
+      {
+        "text": "The atmospheric conditions are perfect for everything except catching fish, which is unfortunately your primary objective."
+      },
+      {
+        "text": "The weather appears to be collaborating with the fish in a conspiracy against angling success."
+      }
+    ]
+  },
+  "seasonal_events": {
+    "spring": [
+      {
+        "text": "The mayflies begin their ancient dance above the water, completely ignoring your carefully selected imitation."
+      },
+      {
+        "text": "Spring lambs in the adjacent field pause their frolicking to observe your angling technique with what appears to be professional concern."
+      },
+      {
+        "text": "The first swallows of spring arrive and immediately begin offering aerial commentary on your casting form."
+      }
+    ],
+    "summer": [
+      {
+        "text": "The summer heat creates perfect hatching conditions for every insect except the one your fly is supposed to represent."
+      },
+      {
+        "text": "A family of picnickers sets up nearby and begins a running commentary on your fishing technique while enjoying their sandwiches."
+      },
+      {
+        "text": "The summer evening light creates perfect conditions for photography, which several tourists take advantage of, using you as an unwitting subject."
+      }
+    ],
+    "autumn": [
+      {
+        "text": "Autumn leaves drift down from the trees, each one landing precisely where your fly was supposed to go."
+      },
+      {
+        "text": "The changing seasons have apparently confused the fish, who are now behaving according to a completely different calendar."
+      },
+      {
+        "text": "A red deer appears on the opposite bank and watches your angling efforts with what can only be described as sympathetic understanding."
+      }
+    ],
+    "winter": [
+      {
+        "text": "The winter air is crisp and clear, providing perfect visibility for observing the complete absence of fish."
+      },
+      {
+        "text": "A robin lands nearby and begins what appears to be a motivational speech about persistence in the face of adversity."
+      },
+      {
+        "text": "The bare winter trees provide an unobstructed view of your casting failures for miles around."
+      }
+    ]
+  },
+  "location_specific": {
+    "river": [
+      {
+        "text": "The river current carries away your hopes and dreams along with several expensive flies."
+      },
+      {
+        "text": "An otter surfaces nearby, examines your technique, and dives again with what appears to be disappointment."
+      },
+      {
+        "text": "The river whispers ancient secrets about fish behavior, but unfortunately speaks in a dialect you don't understand."
+      }
+    ],
+    "reservoir": [
+      {
+        "text": "A sailing boat passes by, its crew offering helpful suggestions about your angling technique through a megaphone."
+      },
+      {
+        "text": "The reservoir's depth finder reveals that all the fish are currently holding a meeting at the bottom, discussing your fishing strategy."
+      },
+      {
+        "text": "A cormorant surfaces with a fish in its beak, demonstrating the proper technique with what appears to be deliberate smugness."
+      }
+    ]
+  }
+}

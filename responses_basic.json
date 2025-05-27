@@ -1,0 +1,1145 @@
+{
+  "attach_fly": {
+    "already_attached": {
+      "text": "Your fly is already attached, though it's giving you a look that suggests it's having second thoughts about this partnership.",
+      "effects": {
+        "dignity": -1
+      }
+    },
+    "mishaps": [
+      {
+        "text": "The fly attaches perfectly, but somehow you've also managed to attach your sleeve to the line.",
+        "effects": {
+          "determination": -3,
+          "dignity": -6
+        }
+      },
+      {
+        "text": "After twenty minutes of increasingly creative cursing, you've successfully tied seventeen different knots, none of which actually involve the fly.",
+        "effects": {
+          "determination": -8,
+          "dignity": -10
+        }
+      }
+    ],
+    "success": [
+      {
+        "text": "The fly attaches with surgical precision. Your knot would make a sailor weep with envy.",
+        "effects": {
+          "determination": 5,
+          "dignity": 4,
+          "fly_attached": true
+        }
+      },
+      {
+        "text": "A perfect knot! The fly dangles elegantly, ready to deceive the most sophisticated trout.",
+        "effects": {
+          "determination": 4,
+          "dignity": 3,
+          "fly_attached": true
+        }
+      }
+    ]
+  },
+  "attach_rod": {
+    "mishaps": [
+      {
+        "text": "The rod sections refuse to fit together properly. After ten minutes of increasingly undignified wrestling, you realize you've been trying to attach the handle to itself.",
+        "effects": {
+          "determination": -5,
+          "dignity": -8
+        }
+      },
+      {
+        "text": "You successfully assemble the rod, but somehow it's now three feet longer than when you started. The laws of physics appear to be taking a tea break.",
+        "effects": {
+          "determination": -3,
+          "dignity": -5
+        }
+      }
+    ],
+    "success": [
+      {
+        "text": "You expertly assemble your Allcocks Harvey Torbett 10-foot split cane Avon rod. The honey-colored bamboo gleams in the morning light, red agate rings catching the sun, bronze ferrules clicking together with satisfying precision. A rod worthy of its namesake.",
+        "effects": {
+          "determination": 8,
+          "dignity": 5,
+          "academic_reputation": 3,
+          "rod_attached": true
+        }
+      },
+      {
+        "text": "The two 4-foot sections of your Harvey Torbett rod unite with practiced ease. Harvey adjusts the alloy screw reel seat and admires the red whipping - craftsmanship from an era when rods were built to last.",
+        "effects": {
+          "determination": 6,
+          "dignity": 4,
+          "inspiration_level": 2,
+          "rod_attached": true
+        }
+      }
+    ]
+  },
+  "cast_rod": {
+    "no_rod": [
+      {
+        "text": "You attempt to cast with no rod assembled. This goes about as well as you'd expect. A nearby duck appears to be laughing.",
+        "effects": {
+          "determination": -5,
+          "dignity": -10
+        }
+      }
+    ],
+    "no_fly": [
+      {
+        "text": "You cast with no fly attached. The line sails gracefully through the air, achieving absolutely nothing with remarkable efficiency.",
+        "effects": {
+          "determination": -3,
+          "dignity": -5,
+          "cast_made": false
+        }
+      }
+    ],
+    "early_mishaps": [
+      {
+        "text": "Your cast goes slightly awry, landing in a nearby bush. The bush seems offended.",
+        "effects": {
+          "determination": -5,
+          "dignity": -3,
+          "cast_made": false
+        }
+      },
+      {
+        "text": "The line tangles mid-cast, creating what can only be described as a three-dimensional puzzle that would challenge Stephen Hawking.",
+        "effects": {
+          "determination": -8,
+          "dignity": -5,
+          "cast_made": false
+        }
+      },
+      {
+        "text": "Your cast achieves a respectable distance but somehow manages to hook a passing cloud. Meteorology was never your strong suit.",
+        "effects": {
+          "determination": -6,
+          "dignity": -4,
+          "cast_made": false
+        }
+      }
+    ],
+    "medium_mishaps": [
+      {
+        "text": "Your cast achieves new heights of creative failure, somehow managing to hook your own hat while simultaneously frightening a family of ducks.",
+        "effects": {
+          "determination": -10,
+          "dignity": -8,
+          "hat_status": "dangling from line",
+          "cast_made": false
+        }
+      },
+      {
+        "text": "The fly line develops what appears to be sentience, wrapping itself around everything except what you intended.",
+        "effects": {
+          "determination": -12,
+          "dignity": -10,
+          "cast_made": false
+        }
+      },
+      {
+        "text": "Your cast goes spectacularly wrong, creating a Gordian knot that Alexander the Great would have found challenging. A nearby angler offers his condolences.",
+        "effects": {
+          "determination": -11,
+          "dignity": -9,
+          "cast_made": false
+        }
+      }
+    ],
+    "late_mishaps": [
+      {
+        "text": "Your cast defies several laws of physics, creating a temporal paradox that somehow results in you hooking a fish that hasn't been born yet.",
+        "effects": {
+          "determination": -15,
+          "dignity": -12,
+          "cast_made": false
+        }
+      },
+      {
+        "text": "The cast goes so spectacularly wrong that local wildlife has gathered to watch. You're pretty sure that otter is taking notes.",
+        "effects": {
+          "determination": -20,
+          "dignity": -15,
+          "cast_made": false
+        }
+      },
+      {
+        "text": "Your casting technique has achieved such legendary status that the Royal Society of Angling Disasters has sent a representative to document it for posterity.",
+        "effects": {
+          "determination": -18,
+          "dignity": -13,
+          "academic_reputation": 5,
+          "cast_made": false
+        }
+      }
+    ]
+  },
+  "reel_in": {
+    "no_cast": [
+      {
+        "text": "You attempt to reel in a line you haven't cast. This is either advanced meditation or the early stages of a complete breakdown.",
+        "effects": {
+          "determination": -3,
+          "dignity": -5
+        }
+      }
+    ],
+    "catches": [
+      {
+        "text": "You reel in... a boot. It's not even a matching pair with the one you caught yesterday.",
+        "effects": {
+          "determination": -5,
+          "dignity": -3,
+          "cast_made": false
+        }
+      },
+      {
+        "text": "Success! You've caught a magnificent... stick. The stick appears unimpressed by your angling prowess.",
+        "effects": {
+          "determination": -3,
+          "dignity": -2,
+          "cast_made": false
+        }
+      },
+      {
+        "text": "You reel in what might be the world's most philosophical piece of pond weed. It seems to be judging your life choices.",
+        "effects": {
+          "determination": -4,
+          "dignity": -3,
+          "cast_made": false
+        }
+      },
+      {
+        "text": "A soggy newspaper emerges from the depths, featuring yesterday's cricket scores and a crossword puzzle that's already been completed incorrectly.",
+        "effects": {
+          "determination": -2,
+          "dignity": -1,
+          "inspiration_level": 2,
+          "cast_made": false
+        }
+      },
+      {
+        "text": "You've successfully caught a rubber duck. It squeaks accusingly, as if questioning your life choices.",
+        "effects": {
+          "determination": -6,
+          "dignity": -4,
+          "cast_made": false
+        }
+      }
+    ]
+  },
+  "eat_sandwich": {
+    "already_eaten": [
+      {
+        "text": "You've already eaten your sandwich. You consider eating the wrapper, but even your standards haven't fallen that far. Yet.",
+        "effects": {
+          "determination": -2,
+          "dignity": -3
+        }
+      }
+    ],
+    "soggy": [
+      {
+        "text": "The sandwich has achieved the consistency of wet cardboard. You eat it anyway, because you're British and this is what we do.",
+        "effects": {
+          "determination": 3,
+          "dignity": -5,
+          "sandwich_status": "eaten"
+        }
+      }
+    ],
+    "sentient": [
+      {
+        "text": "The sandwich appears to have developed opinions about being eaten. You negotiate a peaceful resolution involving shared custody of the pickle.",
+        "effects": {
+          "determination": 5,
+          "dignity": -10,
+          "sandwich_status": "diplomatically resolved"
+        }
+      }
+    ],
+    "normal": [
+      {
+        "text": "You enjoy a perfectly adequate sandwich. The cucumber is crisp, the butter properly applied. For a moment, all is right with the world.",
+        "effects": {
+          "determination": 10,
+          "dignity": 5,
+          "sandwich_status": "eaten"
+        }
+      },
+      {
+        "text": "The sandwich is a masterpiece of British culinary engineering: proper butter, fresh cucumber, crusts removed with surgical precision. Harvey's mother would be proud.",
+        "effects": {
+          "determination": 12,
+          "dignity": 8,
+          "academic_reputation": 2,
+          "sandwich_status": "eaten"
+        }
+      }
+    ]
+  },
+  "wade_deeper": {
+    "intact": [
+      {
+        "text": "You wade deeper with confidence. The water is refreshingly cool, and you feel at one with nature. This feeling lasts approximately thirty seconds.",
+        "effects": {
+          "determination": 5,
+          "waders_status": "slightly damp"
+        }
+      },
+      {
+        "text": "Harvey wades deeper into the crystal-clear water, feeling like a proper chalk stream angler. The cool water around his legs is invigorating.",
+        "effects": {
+          "determination": 7,
+          "dignity": 3,
+          "waders_status": "slightly damp"
+        }
+      }
+    ],
+    "leaking": [
+      {
+        "text": "You wade deeper despite your leaking waders. The cold water is now providing an intimate massage of your lower extremities.",
+        "effects": {
+          "determination": -5,
+          "dignity": -5,
+          "waders_status": "thoroughly compromised"
+        }
+      },
+      {
+        "text": "Harvey bravely continues deeper despite the obvious wader malfunction. British stoicism in the face of aquatic adversity.",
+        "effects": {
+          "determination": -3,
+          "dignity": -7,
+          "waders_status": "thoroughly compromised"
+        }
+      }
+    ],
+    "flooded": [
+      {
+        "text": "You wade deeper in your completely flooded waders. You're now essentially wearing a portable pond. Fish are considering moving in.",
+        "effects": {
+          "determination": -10,
+          "dignity": -8,
+          "waders_status": "aquatic habitat"
+        }
+      },
+      {
+        "text": "Harvey continues his aquatic adventure in what can only be described as 'wearable water features.' His dedication to the sport is admirable, if misguided.",
+        "effects": {
+          "determination": -8,
+          "dignity": -10,
+          "inspiration_level": 3,
+          "waders_status": "aquatic habitat"
+        }
+      }
+    ]
+  },
+  "tie_knot": [
+    {
+      "text": "You tie a knot with the precision of a master craftsman. It's either a perfect blood knot or you've accidentally invented a new form of modern art.",
+      "effects": {
+        "determination": 5,
+        "dignity": 3
+      }
+    },
+    {
+      "text": "Your knot-tying session results in what can only be described as a three-dimensional puzzle that would challenge a mathematician.",
+      "effects": {
+        "determination": -3,
+        "dignity": -5
+      }
+    },
+    {
+      "text": "You successfully tie what appears to be a Gordian knot. Alexander the Great would be impressed, though probably not in a good way.",
+      "effects": {
+        "determination": -8,
+        "dignity": -5
+      }
+    },
+    {
+      "text": "Perfect! A textbook blood knot that would make Izaak Walton himself nod in approval. Harvey's grandfather would be proud.",
+      "effects": {
+        "determination": 8,
+        "dignity": 6,
+        "academic_reputation": 2
+      }
+    }
+  ],
+  "clean_glasses": [
+    {
+      "text": "You clean your glasses with meticulous care. The world comes into sharp focus, revealing just how badly your last cast went.",
+      "effects": {
+        "determination": 3,
+        "dignity": 2
+      }
+    },
+    {
+      "text": "You clean your glasses, only to realize the problem wasn't your vision - reality really is this absurd.",
+      "effects": {
+        "determination": -2,
+        "dignity": 1,
+        "inspiration_level": 3
+      }
+    },
+    {
+      "text": "Perfect! Now you can see the fish laughing at you in high definition.",
+      "effects": {
+        "determination": -5,
+        "dignity": -3
+      }
+    },
+    {
+      "text": "Harvey polishes his scholarly spectacles with a proper lens cloth. Clear vision is essential for proper observation and documentation.",
+      "effects": {
+        "determination": 6,
+        "dignity": 4,
+        "academic_reputation": 1
+      }
+    }
+  ],
+  "adjust_hat": [
+    {
+      "text": "You adjust your hat to the perfect angle of scholarly contemplation. You feel 23% more distinguished.",
+      "effects": {
+        "determination": 5,
+        "dignity": 8,
+        "hat_status": "perfectly positioned"
+      }
+    },
+    {
+      "text": "You adjust your hat, but it seems to have developed its own opinions about proper positioning.",
+      "effects": {
+        "determination": 2,
+        "dignity": -3,
+        "hat_status": "rebellious"
+      }
+    },
+    {
+      "text": "Your hat is now perfectly positioned, but a magpie has decided it would make an excellent nest.",
+      "effects": {
+        "determination": -5,
+        "dignity": -8,
+        "hat_status": "occupied by wildlife"
+      }
+    },
+    {
+      "text": "Hat adjusted to the precise angle favored by gentleman anglers since time immemorial. Harvey cuts a distinguished figure.",
+      "effects": {
+        "determination": 7,
+        "dignity": 10,
+        "academic_reputation": 2,
+        "hat_status": "distinguished"
+      }
+    }
+  ],
+  "change_fly": [
+    {
+      "text": "You select a different fly with the care of a wine connoisseur choosing a vintage. This one has 'success' written all over it.",
+      "effects": {
+        "determination": 8,
+        "dignity": 5,
+        "fly_attached": true
+      }
+    },
+    {
+      "text": "You change flies with scientific precision, though the fish appear to have formed a committee to discuss your tactical choices.",
+      "effects": {
+        "determination": 3,
+        "dignity": 2,
+        "fly_attached": true
+      }
+    },
+    {
+      "text": "You select a Parachute Adams, but it immediately requests a parachute instructor.",
+      "effects": {
+        "determination": -8,
+        "dignity": -5,
+        "fly_attached": true
+      }
+    },
+    {
+      "text": "Harvey chooses a classic Blue Winged Olive, a fly pattern that has fooled trout since his grandfather's time. Tradition and technique combined.",
+      "effects": {
+        "determination": 10,
+        "dignity": 6,
+        "academic_reputation": 3,
+        "inspiration_level": 2,
+        "fly_attached": true
+      }
+    }
+  ],
+  "check_time": [
+    {
+      "text": "Your pocket watch indicates it's precisely the time when fish traditionally ignore all human endeavors. How convenient.",
+      "effects": {
+        "determination": -2,
+        "dignity": 3
+      }
+    },
+    {
+      "text": "According to your calculations, you've been fishing for exactly long enough to question all your life choices.",
+      "effects": {
+        "determination": -5,
+        "dignity": 2,
+        "inspiration_level": 1
+      }
+    },
+    {
+      "text": "Your watch indicates it's teatime, which explains everything.",
+      "effects": {
+        "determination": 5,
+        "dignity": 2
+      }
+    },
+    {
+      "text": "Harvey consults his grandfather's pocket watch - a reliable timepiece that has witnessed decades of angling adventures. Time moves differently by the water.",
+      "effects": {
+        "determination": 3,
+        "dignity": 5,
+        "inspiration_level": 3
+      }
+    }
+  ],
+  "check_weather": [
+    {
+      "text": "The weather is behaving with typical British unpredictability. It's simultaneously perfect for fishing and completely wrong for fishing.",
+      "effects": {
+        "determination": 2,
+        "dignity": 1
+      }
+    },
+    {
+      "text": "The meteorological conditions suggest that somewhere, in a parallel universe, you're probably catching fish.",
+      "effects": {
+        "determination": -3,
+        "dignity": 5,
+        "inspiration_level": 2
+      }
+    },
+    {
+      "text": "The weather is absolutely perfect for fishing, which is precisely why nothing will go according to plan.",
+      "effects": {
+        "determination": -1,
+        "dignity": 3
+      }
+    },
+    {
+      "text": "Harvey observes the atmospheric conditions with the eye of a natural philosopher. Barometric pressure, wind direction, cloud formation - all factors in the grand equation of angling success.",
+      "effects": {
+        "determination": 6,
+        "dignity": 4,
+        "academic_reputation": 2,
+        "inspiration_level": 4
+      }
+    }
+  ],
+  "check_gear": [
+    {
+      "text": "Harvey conducts a methodical inspection of his equipment. Everything appears to be in working order, which is somehow more concerning than if something were obviously broken.",
+      "effects": {
+        "determination": 2,
+        "dignity": 3
+      }
+    },
+    {
+      "text": "A thorough gear check reveals that your equipment is functioning perfectly. The problem, therefore, must lie elsewhere. Probably with the fish.",
+      "effects": {
+        "determination": 4,
+        "dignity": 2,
+        "inspiration_level": 1
+      }
+    },
+    {
+      "text": "Your gear inspection reveals that everything is in perfect working order, which means the universe will now conspire to prove you wrong.",
+      "effects": {
+        "determination": -2,
+        "dignity": 4
+      }
+    }
+
+  ],
+  "attach_fly_brandy": {
+    "merry": [
+      {
+        "text": "Harvey ties the fly with considerably more confidence than usual! 'Splendid little fellow, this fly! We shall catch fish together!' *slight wobble*",
+        "effects": {
+          "determination": 8,
+          "dignity": 2,
+          "fly_attached": true
+        }
+      },
+      {
+        "text": "The fly attaches beautifully! Harvey hums a little tune while admiring his handiwork. Everything seems much more manageable after that delightful discovery.",
+        "effects": {
+          "determination": 6,
+          "dignity": 4,
+          "fly_attached": true
+        }
+      }
+    ],
+    "jolly": [
+      {
+        "text": "Harvey declares this to be 'absolutely the finest fly-tying in recorded history!' The fly may be slightly crooked, but his enthusiasm is infectious. *hic*",
+        "effects": {
+          "determination": 10,
+          "dignity": -2,
+          "fly_attached": true
+        }
+      },
+      {
+        "text": "The fly practically ties itself! Harvey is convinced he's discovered a revolutionary new technique. 'I shall write a paper on this!' *hic*",
+        "effects": {
+          "determination": 12,
+          "dignity": -1,
+          "academic_reputation": 3,
+          "fly_attached": true
+        }
+      }
+    ],
+    "tipsy": [
+      {
+        "text": "Harvey ties the fly while conducting an animated lecture to a passing duck about the philosophical implications of artificial insects. The duck seems genuinely interested. *hic*",
+        "effects": {
+          "determination": 15,
+          "dignity": -8,
+          "inspiration_level": 5,
+          "fly_attached": true
+        }
+      }
+    ]
+  },
+  "attach_rod_brandy": {
+    "merry": [
+      {
+        "text": "The rod assembles with remarkable ease! Harvey feels a surge of confidence in his angling abilities. 'Grandfather's rod knows what it's about!'",
+        "effects": {
+          "determination": 12,
+          "dignity": 6,
+          "academic_reputation": 2,
+          "rod_attached": true
+        }
+      }
+    ],
+    "jolly": [
+      {
+        "text": "Harvey assembles the rod while humming 'Rule Britannia' and declares it 'the finest piece of British engineering since the steam engine!' *hic*",
+        "effects": {
+          "determination": 15,
+          "dignity": 3,
+          "academic_reputation": 4,
+          "rod_attached": true
+        }
+      }
+    ],
+    "tipsy": [
+      {
+        "text": "The rod practically assembles itself! Harvey is convinced it's responding to his newfound joie de vivre. 'We understand each other now, don't we old friend?' *hic*",
+        "effects": {
+          "determination": 18,
+          "dignity": -2,
+          "inspiration_level": 8,
+          "rod_attached": true
+        }
+      }
+    ]
+  },
+  "cast_rod_brandy": {
+    "merry": [
+      {
+        "text": "Harvey's cast has considerably more flair than usual! It may not have gone where intended, but it was executed with panache! 'Style over substance, as they say!'",
+        "effects": {
+          "determination": -3,
+          "dignity": 2,
+          "cast_made": false
+        }
+      }
+    ],
+    "jolly": [
+      {
+        "text": "The cast goes magnificently wrong, but Harvey applauds his own effort! 'Bravo! A truly spectacular demonstration of the chaos theory in action!' *hic*",
+        "effects": {
+          "determination": -5,
+          "dignity": -3,
+          "inspiration_level": 8,
+          "cast_made": false
+        }
+      }
+    ],
+    "tipsy": [
+      {
+        "text": "Harvey's cast defies all known laws of physics, but he's delighted with the result! 'I've invented a new casting technique! I shall call it the Torbett Spiral!' *hic*",
+        "effects": {
+          "determination": -8,
+          "dignity": -10,
+          "academic_reputation": 10,
+          "inspiration_level": 15,
+          "cast_made": false
+        }
+      }
+    ]
+  },
+  "eat_sandwich_brandy": {
+    "merry": [
+      {
+        "text": "The sandwich tastes absolutely magnificent! Harvey savors every bite while contemplating the perfect harmony of cucumber and butter. 'Mother's recipe, you know!'",
+        "effects": {
+          "determination": 15,
+          "dignity": 8,
+          "sandwich_status": "eaten"
+        }
+      }
+    ],
+    "jolly": [
+      {
+        "text": "Harvey declares this to be 'the finest sandwich in the history of British cuisine!' He may be slightly biased, but his enthusiasm is genuine. *hic*",
+        "effects": {
+          "determination": 18,
+          "dignity": 5,
+          "inspiration_level": 3,
+          "sandwich_status": "eaten"
+        }
+      }
+    ],
+    "tipsy": [
+      {
+        "text": "The sandwich is absolutely divine! Harvey begins composing an ode to cucumber sandwiches while eating. 'Oh cucumber, thou crisp delight...' *hic*",
+        "effects": {
+          "determination": 20,
+          "dignity": -5,
+          "inspiration_level": 10,
+          "academic_reputation": 2,
+          "sandwich_status": "eaten"
+        }
+      }
+    ]
+  },
+  "wade_deeper_brandy": {
+    "merry": [
+      {
+        "text": "Harvey wades deeper with the confidence of a man who has discovered life's simple pleasures! The water feels wonderfully refreshing.",
+        "effects": {
+          "determination": 8,
+          "dignity": 4,
+          "waders_status": "slightly damp"
+        }
+      }
+    ],
+    "jolly": [
+      {
+        "text": "Wading deeper seems like an absolutely brilliant idea! Harvey splashes forward with enthusiasm, declaring the water 'perfectly temperate!' *hic*",
+        "effects": {
+          "determination": 10,
+          "dignity": -2,
+          "waders_status": "thoroughly compromised"
+        }
+      }
+    ],
+    "tipsy": [
+      {
+        "text": "Harvey wades deeper while singing a sea shanty! 'What shall we do with a drunken angler, early in the morning!' The fish seem to appreciate the entertainment. *hic*",
+        "effects": {
+          "determination": 15,
+          "dignity": -10,
+          "inspiration_level": 8,
+          "waders_status": "flooded"
+        }
+      }
+    ]
+  },
+  "tie_knot_brandy": {
+    "merry": [
+      {
+        "text": "Harvey ties the knot with flourish and confidence! 'A perfect blood knot, executed with the precision of a gentleman scholar!'",
+        "effects": {
+          "determination": 10,
+          "dignity": 6
+        }
+      }
+    ],
+    "jolly": [
+      {
+        "text": "The knot practically ties itself! Harvey is convinced he's channeling the spirit of ancient mariners. 'The sea calls to me!' *hic*",
+        "effects": {
+          "determination": 12,
+          "dignity": 2,
+          "inspiration_level": 5
+        }
+      }
+    ],
+    "tipsy": [
+      {
+        "text": "Harvey creates what he believes to be a revolutionary new knot! It may look like abstract art, but he's thoroughly pleased with his innovation. *hic*",
+        "effects": {
+          "determination": 8,
+          "dignity": -5,
+          "academic_reputation": 8,
+          "inspiration_level": 12
+        }
+      }
+    ]
+  },
+  "clean_glasses_brandy": {
+    "merry": [
+      {
+        "text": "Harvey polishes his spectacles with extra care, humming contentedly. 'Clear vision for clear thinking, as grandfather always said!'",
+        "effects": {
+          "determination": 8,
+          "dignity": 6,
+          "academic_reputation": 2
+        }
+      }
+    ],
+    "jolly": [
+      {
+        "text": "The glasses practically sparkle! Harvey declares his vision 'magnificently enhanced' and ready for 'scholarly observation of the highest order!' *hic*",
+        "effects": {
+          "determination": 10,
+          "dignity": 4,
+          "academic_reputation": 4
+        }
+      }
+    ],
+    "tipsy": [
+      {
+        "text": "Harvey cleans his glasses while delivering an impromptu lecture on optics to a bemused heron. 'The refraction of light through properly maintained lenses...' *hic*",
+        "effects": {
+          "determination": 12,
+          "dignity": -3,
+          "academic_reputation": 6,
+          "inspiration_level": 8
+        }
+      }
+    ]
+  },
+  "check_weather_brandy": {
+    "merry": [
+      {
+        "text": "Harvey observes the weather with renewed optimism! 'Absolutely perfect conditions for angling success! The barometric pressure is most encouraging!'",
+        "effects": {
+          "determination": 10,
+          "dignity": 5,
+          "academic_reputation": 3
+        }
+      }
+    ],
+    "jolly": [
+      {
+        "text": "The weather is absolutely magnificent! Harvey begins composing meteorological poetry. 'Oh clouds, ye harbingers of piscine possibility!' *hic*",
+        "effects": {
+          "determination": 15,
+          "dignity": 2,
+          "inspiration_level": 8
+        }
+      }
+    ],
+    "tipsy": [
+      {
+        "text": "Harvey declares the weather 'cosmically aligned for angling triumph!' He may be negotiating with the clouds, but his enthusiasm is infectious. *hic*",
+        "effects": {
+          "determination": 20,
+          "dignity": -5,
+          "inspiration_level": 12
+        }
+      }
+    ]
+  },
+  "attach_fly_mishaps_brandy": {
+    "merry": [
+      {
+        "text": "The fly attaches to Harvey's sleeve, but he finds this absolutely charming! 'Look! I've invented wearable fishing technology!' *slight wobble*",
+        "effects": {
+          "determination": 2,
+          "dignity": -3,
+          "inspiration_level": 5
+        }
+      },
+      {
+        "text": "After tying seventeen creative knots, Harvey declares it 'an artistic triumph!' The fly remains unattached, but his spirits are high.",
+        "effects": {
+          "determination": -2,
+          "dignity": -5,
+          "inspiration_level": 8
+        }
+      }
+    ],
+    "jolly": [
+      {
+        "text": "Harvey's knot-tying session creates what he enthusiastically calls 'a three-dimensional masterpiece of angling engineering!' The fly is somewhere in there. *hic*",
+        "effects": {
+          "determination": 5,
+          "dignity": -8,
+          "academic_reputation": 5,
+          "inspiration_level": 10
+        }
+      },
+      {
+        "text": "The fly has somehow attached itself to Harvey's hat, but he's delighted! 'Mobile fly storage! I'm a genius!' *hic*",
+        "effects": {
+          "determination": 8,
+          "dignity": -10,
+          "hat_status": "decorated with fishing fly",
+          "inspiration_level": 12
+        }
+      }
+    ],
+    "tipsy": [
+      {
+        "text": "Harvey has created what appears to be a small sculpture made entirely of fishing line and enthusiasm. The fly is involved somehow. 'I shall exhibit this at the Royal Academy!' *hic*",
+        "effects": {
+          "determination": 10,
+          "dignity": -15,
+          "academic_reputation": 8,
+          "inspiration_level": 20
+        }
+      },
+      {
+        "text": "The fly-tying session has resulted in Harvey being more attached to the line than the fly is. He finds this philosophically fascinating. 'Man and equipment in perfect harmony!' *hic*",
+        "effects": {
+          "determination": 12,
+          "dignity": -12,
+          "inspiration_level": 15
+        }
+      }
+    ]
+  },
+  "attach_rod_mishaps_brandy": {
+    "merry": [
+      {
+        "text": "The rod sections refuse to cooperate, but Harvey finds their independence admirable! 'Spirited equipment! I respect that in a fishing rod!'",
+        "effects": {
+          "determination": 3,
+          "dignity": -5,
+          "inspiration_level": 3
+        }
+      },
+      {
+        "text": "Harvey has somehow assembled a rod that's three feet longer than it should be, and he's absolutely thrilled! 'Extended reach! Revolutionary!'",
+        "effects": {
+          "determination": 5,
+          "dignity": -3,
+          "academic_reputation": 2
+        }
+      }
+    ],
+    "jolly": [
+      {
+        "text": "The rod assembly has gone magnificently wrong, but Harvey applauds the effort! 'Bravo, rod! You've exceeded all expectations!' *hic*",
+        "effects": {
+          "determination": 8,
+          "dignity": -8,
+          "inspiration_level": 8
+        }
+      },
+      {
+        "text": "Harvey has created what he believes to be 'the world's first modular fishing system!' It may not resemble a traditional rod, but his innovation is boundless. *hic*",
+        "effects": {
+          "determination": 10,
+          "dignity": -10,
+          "academic_reputation": 6,
+          "inspiration_level": 12
+        }
+      }
+    ],
+    "tipsy": [
+      {
+        "text": "The rod assembly has achieved what Harvey calls 'transcendent complexity!' He's not entirely sure how it works, but he's convinced it's brilliant. *hic*",
+        "effects": {
+          "determination": 15,
+          "dignity": -15,
+          "academic_reputation": 10,
+          "inspiration_level": 18
+        }
+      },
+      {
+        "text": "Harvey has somehow assembled the rod inside-out and backwards, but declares it 'a revolutionary approach to traditional angling!' The physics are questionable, but his enthusiasm is infectious. *hic*",
+        "effects": {
+          "determination": 12,
+          "dignity": -18,
+          "inspiration_level": 20
+        }
+      }
+    ]
+  },
+  "cast_rod_mishaps_brandy": {
+    "early_mishaps_merry": [
+      {
+        "text": "The cast lands in a bush, but Harvey finds this delightfully rustic! 'I'm fishing for tree trout! An unexplored species!'",
+        "effects": {
+          "determination": 2,
+          "dignity": -2,
+          "inspiration_level": 5,
+          "cast_made": false
+        }
+      },
+      {
+        "text": "The line tangles magnificently, and Harvey declares it 'a three-dimensional puzzle worthy of academic study!' He begins taking notes.",
+        "effects": {
+          "determination": -3,
+          "dignity": -3,
+          "academic_reputation": 3,
+          "inspiration_level": 8,
+          "cast_made": false
+        }
+      }
+    ],
+    "medium_mishaps_jolly": [
+      {
+        "text": "Harvey hooks his own hat and declares it 'the finest catch of the day!' The ducks applaud, which he takes as professional recognition. *hic*",
+        "effects": {
+          "determination": 5,
+          "dignity": -8,
+          "hat_status": "dangling from line",
+          "inspiration_level": 10,
+          "cast_made": false
+        }
+      },
+      {
+        "text": "The fly line achieves sentience and wraps around everything in sight. Harvey is thrilled! 'I've created artificial life! Nobel Prize, here I come!' *hic*",
+        "effects": {
+          "determination": 8,
+          "dignity": -12,
+          "academic_reputation": 8,
+          "inspiration_level": 15,
+          "cast_made": false
+        }
+      }
+    ],
+    "late_mishaps_tipsy": [
+      {
+        "text": "Harvey's cast creates a temporal paradox, but he's absolutely delighted! 'I've revolutionized both angling AND physics! Grandfather would be so proud!' *hic*",
+        "effects": {
+          "determination": 10,
+          "dignity": -15,
+          "academic_reputation": 15,
+          "inspiration_level": 25,
+          "cast_made": false
+        }
+      },
+      {
+        "text": "The cast goes so spectacularly wrong that Harvey begins conducting the gathered wildlife like an orchestra. 'Ladies and gentlemen, I present: Chaos in B-flat!' *hic*",
+        "effects": {
+          "determination": 15,
+          "dignity": -20,
+          "inspiration_level": 30,
+          "cast_made": false
+        }
+      },
+      {
+        "text": "Harvey's casting technique has attracted representatives from the Royal Society, but he's convinced they're here to offer him a knighthood. 'Sir Harvey has a nice ring to it!' *hic*",
+        "effects": {
+          "determination": 12,
+          "dignity": -18,
+          "academic_reputation": 20,
+          "inspiration_level": 25,
+          "cast_made": false
+        }
+      }
+    ]
+  },
+  "reel_in_catches_brandy": {
+    "merry": [
+      {
+        "text": "Harvey reels in a magnificent boot and declares it 'a fine specimen of industrial archaeology!' He begins cataloguing its features.",
+        "effects": {
+          "determination": 2,
+          "dignity": -1,
+          "academic_reputation": 3,
+          "cast_made": false
+        }
+      },
+      {
+        "text": "The philosophical pond weed is judging Harvey's life choices, but he finds this intellectually stimulating! 'Finally, a worthy debate partner!'",
+        "effects": {
+          "determination": 5,
+          "dignity": -2,
+          "inspiration_level": 8,
+          "cast_made": false
+        }
+      }
+    ],
+    "jolly": [
+      {
+        "text": "Harvey catches a rubber duck and immediately names it 'Professor Quackers!' He begins discussing angling theory with his new colleague. *hic*",
+        "effects": {
+          "determination": 8,
+          "dignity": -8,
+          "inspiration_level": 12,
+          "cast_made": false
+        }
+      },
+      {
+        "text": "The soggy newspaper contains yesterday's cricket scores, which Harvey finds absolutely fascinating! 'Research material! The intersection of sport and aquatic preservation!' *hic*",
+        "effects": {
+          "determination": 6,
+          "dignity": -3,
+          "academic_reputation": 4,
+          "inspiration_level": 10,
+          "cast_made": false
+        }
+      }
+    ],
+    "tipsy": [
+      {
+        "text": "Harvey reels in what appears to be a small ecosystem and declares himself 'the discoverer of a new form of aquatic civilization!' He begins diplomatic negotiations. *hic*",
+        "effects": {
+          "determination": 15,
+          "dignity": -15,
+          "academic_reputation": 10,
+          "inspiration_level": 20,
+          "cast_made": false
+        }
+      },
+      {
+        "text": "The catch of the day is a tin can containing a strongly worded letter to the River Authority. Harvey finds this 'absolutely riveting correspondence!' and begins composing a reply. *hic*",
+        "effects": {
+          "determination": 12,
+          "dignity": -10,
+          "inspiration_level": 18,
+          "cast_made": false
+        }
+      }
+    ]
+  },
+  "wade_deeper_mishaps_brandy": {
+    "leaking_merry": [
+      {
+        "text": "Harvey's waders are leaking, but he finds the aquatic massage 'rather invigorating!' British stoicism at its finest.",
+        "effects": {
+          "determination": 2,
+          "dignity": -3,
+          "waders_status": "thoroughly compromised"
+        }
+      }
+    ],
+    "flooded_jolly": [
+      {
+        "text": "Harvey's completely flooded waders have become 'portable aquariums!' He's convinced he's pioneered a new form of mobile marine biology. *hic*",
+        "effects": {
+          "determination": 8,
+          "dignity": -10,
+          "academic_reputation": 5,
+          "inspiration_level": 12,
+          "waders_status": "aquatic habitat"
+        }
+      }
+    ],
+    "flooded_tipsy": [
+      {
+        "text": "Harvey declares his flooded waders 'the ultimate in immersive angling technology!' He begins lecturing passing fish on the benefits of human-aquatic integration. *hic*",
+        "effects": {
+          "determination": 15,
+          "dignity": -20,
+          "academic_reputation": 8,
+          "inspiration_level": 25,
+          "waders_status": "aquatic habitat"
+        }
+      }
+    ]
+  }
+}

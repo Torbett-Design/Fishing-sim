@@ -1,0 +1,664 @@
+{
+  "silly_actions": {
+    "whistle": [
+      {
+        "text": "You whistle a jaunty tune. A robin joins in, though it's clearly showing off with its superior vocal range.",
+        "effects": {
+          "determination": 5,
+          "dignity": 2
+        }
+      },
+      {
+        "text": "Your whistling attracts the attention of a local dog walker, who assumes you're in distress and offers to call the authorities.",
+        "effects": {
+          "determination": 3,
+          "dignity": -5
+        }
+      },
+      {
+        "text": "Harvey whistles 'Rule Britannia' with scholarly precision. The fish remain unimpressed, but a passing corgi stops to listen appreciatively.",
+        "effects": {
+          "determination": 6,
+          "dignity": 4,
+          "academic_reputation": 1
+        }
+      },
+      {
+        "text": "Your whistling attempt sounds like a kettle with existential problems. Even the ducks look concerned.",
+        "effects": {
+          "determination": -2,
+          "dignity": -8
+        }
+      },
+      {
+        "text": "Harvey whistles a complex Bach fugue from memory. A music professor walking by stops to applaud, though the fish remain stubbornly silent.",
+        "effects": {
+          "determination": 8,
+          "dignity": 6,
+          "academic_reputation": 3,
+          "inspiration_level": 4
+        }
+      }
+    ],
+    "pray": [
+      {
+        "text": "You offer a heartfelt prayer to the gods of angling. A fish jumps nearby, which you choose to interpret as divine acknowledgment.",
+        "effects": {
+          "determination": 8,
+          "dignity": 3
+        }
+      },
+      {
+        "text": "You pray for fishing success. The universe responds by sending a light drizzle and a family of ducks who seem to find your situation amusing.",
+        "effects": {
+          "determination": 2,
+          "dignity": -3,
+          "weather": "drizzling"
+        }
+      },
+      {
+        "text": "Harvey offers a scholarly prayer to Saint Peter, patron saint of fishermen. A nearby vicar nods approvingly from the footpath.",
+        "effects": {
+          "determination": 10,
+          "dignity": 8,
+          "academic_reputation": 2
+        }
+      },
+      {
+        "text": "You pray to Izaak Walton's spirit for guidance. A gentle breeze rustles the pages of your mental copy of 'The Compleat Angler.'",
+        "effects": {
+          "determination": 12,
+          "dignity": 5,
+          "inspiration_level": 8,
+          "academic_reputation": 4
+        }
+      },
+      {
+        "text": "Harvey's prayer is interrupted by a swan who appears to be conducting its own religious service. You respectfully wait for it to finish.",
+        "effects": {
+          "determination": 4,
+          "dignity": 6,
+          "inspiration_level": 3
+        }
+      },
+      {
+        "text": "You pray for patience, wisdom, and perhaps just one fish. The universe delivers on the first two, but remains mysteriously silent on the third.",
+        "effects": {
+          "determination": 6,
+          "dignity": 4,
+          "inspiration_level": 5
+        }
+      }
+    ],
+    "curse": [
+      {
+        "text": "You unleash a string of creative profanity that would make a sailor blush. A nearby vicar pretends not to hear while secretly taking notes.",
+        "effects": {
+          "determination": 5,
+          "dignity": -8
+        }
+      },
+      {
+        "text": "Your cursing is so inventive that local wildlife gathers to listen. You're pretty sure that squirrel is applauding.",
+        "effects": {
+          "determination": 8,
+          "dignity": -10
+        }
+      },
+      {
+        "text": "Harvey unleashes a torrent of scholarly invective that would make a medieval monk proud. Several Latin phrases are involved.",
+        "effects": {
+          "determination": 10,
+          "dignity": -5,
+          "academic_reputation": 3
+        }
+      },
+      {
+        "text": "You curse with the precision of a gentleman and the vocabulary of a dock worker. It's quite an impressive linguistic performance.",
+        "effects": {
+          "determination": 7,
+          "dignity": -6,
+          "inspiration_level": 2
+        }
+      },
+      {
+        "text": "Harvey's cursing is so eloquent that a passing English literature student stops to take notes for their thesis on 'Creative Profanity in Rural Settings.'",
+        "effects": {
+          "determination": 12,
+          "dignity": -12,
+          "academic_reputation": 8,
+          "inspiration_level": 6
+        }
+      },
+      {
+        "text": "You curse the fish, the river, the weather, and the fundamental laws of probability. The universe seems to take this as a personal challenge.",
+        "effects": {
+          "determination": 3,
+          "dignity": -15,
+          "mishap_level": 1
+        }
+      }
+    ],
+    "dance": [
+      {
+        "text": "You perform an interpretive dance representing the eternal struggle between angler and fish. It's surprisingly therapeutic.",
+        "effects": {
+          "determination": 10,
+          "dignity": -12
+        }
+      },
+      {
+        "text": "Your fishing dance attracts a small crowd of bemused onlookers. Someone starts a collection, though you're not sure if it's for or against your performance.",
+        "effects": {
+          "determination": 8,
+          "dignity": -15
+        }
+      },
+      {
+        "text": "Harvey performs a dignified morris dance, complete with imaginary handkerchiefs. A group of actual morris dancers appears and rates your performance 7/10.",
+        "effects": {
+          "determination": 15,
+          "dignity": -8,
+          "inspiration_level": 5
+        }
+      },
+      {
+        "text": "You dance the ancient ritual of 'Summoning the Trout.' It's entirely made up, but performed with academic rigor.",
+        "effects": {
+          "determination": 12,
+          "dignity": -10,
+          "academic_reputation": 2,
+          "inspiration_level": 8
+        }
+      },
+      {
+        "text": "Harvey's interpretive dance tells the story of British angling from Roman times to the present. It's a three-act performance that leaves the local wildlife genuinely moved.",
+        "effects": {
+          "determination": 20,
+          "dignity": -20,
+          "academic_reputation": 10,
+          "inspiration_level": 15
+        }
+      },
+      {
+        "text": "You perform what can only be described as 'The Dance of Aquatic Disappointment.' It's surprisingly cathartic.",
+        "effects": {
+          "determination": 8,
+          "dignity": -18,
+          "inspiration_level": 10
+        }
+      }
+    ],
+    "sing": [
+      {
+        "text": "You serenade the fish with a rousing chorus of 'Rule Britannia.' The fish remain unimpressed, but your patriotic fervor is admirable.",
+        "effects": {
+          "determination": 12,
+          "dignity": -5
+        }
+      },
+      {
+        "text": "Your singing voice could charitably be described as 'enthusiastic.' Several fish surface, though whether from attraction or concern is unclear.",
+        "effects": {
+          "determination": 6,
+          "dignity": -8
+        }
+      },
+      {
+        "text": "Harvey sings a traditional angling ballad he learned from his grandfather. His voice carries across the water with surprising beauty.",
+        "effects": {
+          "determination": 15,
+          "dignity": 8,
+          "academic_reputation": 4,
+          "inspiration_level": 6
+        }
+      },
+      {
+        "text": "You sing 'Jerusalem' with such passion that a nearby church organist stops to listen. The fish, however, remain stubbornly secular.",
+        "effects": {
+          "determination": 18,
+          "dignity": 5,
+          "inspiration_level": 8
+        }
+      },
+      {
+        "text": "Harvey composes and performs an original opera about the tragic love affair between an angler and an uncooperative trout. It's surprisingly moving.",
+        "effects": {
+          "determination": 20,
+          "dignity": -10,
+          "academic_reputation": 12,
+          "inspiration_level": 20
+        }
+      },
+      {
+        "text": "You sing sea shanties to freshwater fish, which is either culturally insensitive or brilliantly innovative. The jury is still out.",
+        "effects": {
+          "determination": 10,
+          "dignity": -6,
+          "inspiration_level": 4
+        }
+      },
+      {
+        "text": "Harvey's rendition of 'Greensleeves' is so haunting that a family of swans stops to listen. One appears to be weeping.",
+        "effects": {
+          "determination": 14,
+          "dignity": 12,
+          "inspiration_level": 10
+        }
+      }
+    ],
+    "meditate": [
+      {
+        "text": "You achieve a state of zen-like calm, becoming one with the river. This lasts until a duck steals your sandwich.",
+        "effects": {
+          "determination": 15,
+          "dignity": 5,
+          "sandwich_status": "duck-napped"
+        }
+      },
+      {
+        "text": "Your meditation is interrupted by the realization that you've been sitting on an anthill. Enlightenment will have to wait.",
+        "effects": {
+          "determination": 5,
+          "dignity": -10
+        }
+      },
+      {
+        "text": "Harvey enters a profound meditative state, contemplating the interconnectedness of all aquatic life. A heron joins him in silent contemplation.",
+        "effects": {
+          "determination": 20,
+          "dignity": 10,
+          "inspiration_level": 15,
+          "academic_reputation": 5
+        }
+      },
+      {
+        "text": "You meditate on the teachings of Izaak Walton, achieving a state of angling enlightenment that unfortunately doesn't translate to actual fish-catching ability.",
+        "effects": {
+          "determination": 18,
+          "dignity": 8,
+          "inspiration_level": 12,
+          "academic_reputation": 6
+        }
+      },
+      {
+        "text": "Harvey's meditation is so deep that local wildlife begins to mistake him for a particularly scholarly statue. A robin builds a nest in his hat.",
+        "effects": {
+          "determination": 12,
+          "dignity": -5,
+          "hat_status": "occupied by wildlife",
+          "inspiration_level": 8
+        }
+      },
+      {
+        "text": "You achieve perfect inner peace and understanding of the universe. Unfortunately, the universe appears to be having a laugh at your expense.",
+        "effects": {
+          "determination": 10,
+          "dignity": 6,
+          "inspiration_level": 20
+        }
+      }
+    ]
+  },
+  "silly_actions_brandy": {
+    "whistle_merry": [
+      {
+        "text": "Harvey whistles with considerably more confidence than usual! The tune is jaunty, the rhythm questionable, but the enthusiasm infectious!",
+        "effects": {
+          "determination": 10,
+          "dignity": 1
+        }
+      },
+      {
+        "text": "Your whistling attracts not just birds, but what appears to be a small parade of woodland creatures. You're like a scholarly Snow White!",
+        "effects": {
+          "determination": 12,
+          "dignity": -2,
+          "inspiration_level": 5
+        }
+      }
+    ],
+    "whistle_jolly": [
+      {
+        "text": "Harvey whistles a medley of patriotic songs while conducting an invisible orchestra! The performance is magnificent, if slightly wobbly! *hic*",
+        "effects": {
+          "determination": 15,
+          "dignity": -5,
+          "inspiration_level": 8
+        }
+      },
+      {
+        "text": "Your whistling has evolved into a full musical revue! You're pretty sure that otter is keeping time! *hic*",
+        "effects": {
+          "determination": 18,
+          "dignity": -8,
+          "inspiration_level": 12
+        }
+      }
+    ],
+    "whistle_tipsy": [
+      {
+        "text": "Harvey whistles the entire score of HMS Pinafore while explaining to a bemused duck why Gilbert and Sullivan revolutionized British musical theatre! *hic*",
+        "effects": {
+          "determination": 20,
+          "dignity": -15,
+          "academic_reputation": 8,
+          "inspiration_level": 20
+        }
+      }
+    ],
+    "pray_merry": [
+      {
+        "text": "Harvey's prayers are considerably more optimistic than usual! 'Dear Lord, thank you for this magnificent day and the excellent brandy!'",
+        "effects": {
+          "determination": 15,
+          "dignity": 8
+        }
+      }
+    ],
+    "pray_jolly": [
+      {
+        "text": "Harvey prays with such enthusiasm that he begins composing hymns on the spot! 'Oh Lord of Rivers, bless this angling endeavor!' *hic*",
+        "effects": {
+          "determination": 20,
+          "dignity": 5,
+          "inspiration_level": 10
+        }
+      }
+    ],
+    "pray_tipsy": [
+      {
+        "text": "Harvey's prayers have become a theological discussion with a passing vicar about the spiritual significance of angling! The vicar seems genuinely interested! *hic*",
+        "effects": {
+          "determination": 25,
+          "dignity": -5,
+          "academic_reputation": 12,
+          "inspiration_level": 15
+        }
+      }
+    ],
+    "curse_merry": [
+      {
+        "text": "Harvey's cursing is surprisingly cheerful! 'Blast these delightfully challenging fish!' he declares with a smile.",
+        "effects": {
+          "determination": 8,
+          "dignity": 2
+        }
+      }
+    ],
+    "curse_jolly": [
+      {
+        "text": "Harvey curses with such creative joy that it sounds more like poetry! 'You magnificent, stubborn, aquatic scholars!' *hic*",
+        "effects": {
+          "determination": 12,
+          "dignity": -3,
+          "inspiration_level": 8
+        }
+      }
+    ],
+    "curse_tipsy": [
+      {
+        "text": "Harvey's cursing has evolved into a scholarly lecture on the etymology of British profanity! A linguistics professor stops to take notes! *hic*",
+        "effects": {
+          "determination": 15,
+          "dignity": -10,
+          "academic_reputation": 15,
+          "inspiration_level": 20
+        }
+      }
+    ],
+    "dance_merry": [
+      {
+        "text": "Harvey's dancing has considerably more flair than usual! It's still interpretive, but now with added confidence and questionable balance!",
+        "effects": {
+          "determination": 15,
+          "dignity": -8
+        }
+      }
+    ],
+    "dance_jolly": [
+      {
+        "text": "Harvey performs what he calls 'The Brandy Ballet of Angling Triumph!' It's magnificent, ridiculous, and surprisingly athletic! *hic*",
+        "effects": {
+          "determination": 20,
+          "dignity": -15,
+          "inspiration_level": 15
+        }
+      }
+    ],
+    "dance_tipsy": [
+      {
+        "text": "Harvey's interpretive dance has become a full historical reenactment of British angling! He's currently portraying the Norman Conquest of Trout! *hic*",
+        "effects": {
+          "determination": 25,
+          "dignity": -25,
+          "academic_reputation": 20,
+          "inspiration_level": 30
+        }
+      }
+    ],
+    "sing_merry": [
+      {
+        "text": "Harvey sings with renewed vigor! His voice carries beautifully across the water, and several anglers downstream stop to listen!",
+        "effects": {
+          "determination": 18,
+          "dignity": 6
+        }
+      }
+    ],
+    "sing_jolly": [
+      {
+        "text": "Harvey's singing has become a full concert! He's taking requests from the wildlife and dedicating songs to individual fish! *hic*",
+        "effects": {
+          "determination": 22,
+          "dignity": -5,
+          "inspiration_level": 12
+        }
+      }
+    ],
+    "sing_tipsy": [
+      {
+        "text": "Harvey composes and performs an epic ballad about the heroic struggle between scholar and trout! It's twelve verses long and includes a chorus for the ducks! *hic*",
+        "effects": {
+          "determination": 30,
+          "dignity": -15,
+          "academic_reputation": 18,
+          "inspiration_level": 25
+        }
+      }
+    ],
+    "meditate_merry": [
+      {
+        "text": "Harvey's meditation is wonderfully peaceful! He achieves a state of scholarly serenity that makes everything seem possible!",
+        "effects": {
+          "determination": 20,
+          "dignity": 12,
+          "inspiration_level": 10
+        }
+      }
+    ],
+    "meditate_jolly": [
+      {
+        "text": "Harvey meditates with such enthusiasm that he begins narrating his own enlightenment! 'I am becoming one with the cosmic trout!' *hic*",
+        "effects": {
+          "determination": 25,
+          "dignity": 5,
+          "inspiration_level": 18
+        }
+      }
+    ],
+    "meditate_tipsy": [
+      {
+        "text": "Harvey's meditation has become a philosophical symposium with the local wildlife! He's currently debating the nature of existence with a very patient heron! *hic*",
+        "effects": {
+          "determination": 30,
+          "dignity": -10,
+          "academic_reputation": 15,
+          "inspiration_level": 35
+        }
+      }
+    ]
+  },
+  "gear_actions": {
+    "tie_knot": [
+      {
+        "text": "You successfully tie what appears to be a Gordian knot. Alexander the Great would be impressed.",
+        "effects": {
+          "determination": -8,
+          "dignity": -5
+        }
+      },
+      {
+        "text": "Your knot is perfect, but it's somehow tied around your own ankle.",
+        "effects": {
+          "determination": -10,
+          "dignity": -12
+        }
+      },
+      {
+        "text": "You've invented a new knot that exists in four dimensions simultaneously.",
+        "effects": {
+          "determination": -5,
+          "dignity": -8
+        }
+      },
+      {
+        "text": "Harvey ties a knot so complex that a passing mathematician stops to photograph it for their research on topology.",
+        "effects": {
+          "determination": -12,
+          "dignity": -15,
+          "academic_reputation": 8
+        }
+      },
+      {
+        "text": "You successfully tie what appears to be a perfect blood knot, then realize you've attached your fly to a nearby bush instead of your line.",
+        "effects": {
+          "determination": -6,
+          "dignity": -10
+        }
+      }
+    ],
+    "clean_glasses": [
+      {
+        "text": "Perfect! Now you can see the fish laughing at you in high definition.",
+        "effects": {
+          "determination": -5,
+          "dignity": -3
+        }
+      },
+      {
+        "text": "Your glasses are spotless, but now everything looks like a Monet painting.",
+        "effects": {
+          "determination": 3,
+          "dignity": -2
+        }
+      },
+      {
+        "text": "Clean glasses reveal that you've been fishing in a car park this entire time.",
+        "effects": {
+          "determination": -15,
+          "dignity": -20
+        }
+      },
+      {
+        "text": "Harvey polishes his spectacles with scholarly precision, only to discover he's been wearing his reading glasses instead of his distance ones this entire time.",
+        "effects": {
+          "determination": -8,
+          "dignity": -12,
+          "academic_reputation": -2
+        }
+      },
+      {
+        "text": "Your glasses are now so clean they've achieved a state of optical perfection that allows you to see into parallel dimensions where you're actually catching fish.",
+        "effects": {
+          "determination": 5,
+          "dignity": -5,
+          "inspiration_level": 10
+        }
+      }
+    ],
+    "adjust_hat": [
+      {
+        "text": "Your hat is now perfectly positioned, but a magpie has decided it would make an excellent nest.",
+        "effects": {
+          "determination": -5,
+          "dignity": -8
+        }
+      },
+      {
+        "text": "Hat adjusted! Though it's now facing backwards and you look like a confused rapper.",
+        "effects": {
+          "dignity": -10,
+          "determination": 2
+        }
+      },
+      {
+        "text": "Perfect hat positioning achieved! The hat tips itself in acknowledgment.",
+        "effects": {
+          "dignity": 5,
+          "determination": 3
+        }
+      },
+      {
+        "text": "Harvey adjusts his hat to the precise angle favored by Victorian naturalists, immediately feeling 47% more scholarly.",
+        "effects": {
+          "dignity": 8,
+          "determination": 6,
+          "academic_reputation": 3
+        }
+      },
+      {
+        "text": "You adjust your hat, but it seems to have developed strong opinions about proper positioning and keeps readjusting itself.",
+        "effects": {
+          "determination": -3,
+          "dignity": -6,
+          "hat_status": "independently minded"
+        }
+      }
+    ],
+    "change_fly": [
+      {
+        "text": "You select a Parachute Adams, but it immediately requests a parachute instructor.",
+        "effects": {
+          "determination": -8,
+          "dignity": -5,
+          "fly_attached": true
+        }
+      },
+      {
+        "text": "Your new fly is a beautiful Royal Wulff, but it insists on being addressed as 'Your Majesty'.",
+        "effects": {
+          "determination": -5,
+          "dignity": -8,
+          "fly_attached": true
+        }
+      },
+      {
+        "text": "You choose a Woolly Bugger, which promptly begins picking its nose.",
+        "effects": {
+          "determination": -10,
+          "dignity": -12,
+          "fly_attached": true
+        }
+      },
+      {
+        "text": "Harvey selects a classic Blue Winged Olive, a pattern his grandfather swore by. The fly seems to approve of this traditional choice.",
+        "effects": {
+          "determination": 8,
+          "dignity": 6,
+          "academic_reputation": 4,
+          "fly_attached": true
+        }
+      },
+      {
+        "text": "You change to a Greenwell's Glory, but it appears to be suffering from an identity crisis and keeps asking if it's really glorious enough.",
+        "effects": {
+          "determination": -6,
+          "dignity": -4,
+          "inspiration_level": 3,
+          "fly_attached": true
+        }
+      }
+    ]
+  }
+}

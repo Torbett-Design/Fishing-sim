@@ -1,0 +1,52 @@
+{
+  "locations": [
+    {
+      "name": "River Test, Hampshire",
+      "type": "river",
+      "key": "river_test",
+      "description": "A legendary chalk stream known for its crystal-clear waters and discerning trout",
+      "difficulty": "challenging",
+      "fish_types": ["brown trout", "grayling", "rainbow trout"]
+    },
+    {
+      "name": "River Itchen, Hampshire", 
+      "type": "river",
+      "key": "river_itchen",
+      "description": "Another famous Hampshire chalk stream with a reputation for large, educated trout",
+      "difficulty": "very challenging",
+      "fish_types": ["brown trout", "grayling", "sea trout"]
+    },
+    {
+      "name": "River Nadder, Wiltshire",
+      "type": "river", 
+      "key": "river_nadder",
+      "description": "A picturesque Wiltshire river flowing through ancient water meadows",
+      "difficulty": "moderate",
+      "fish_types": ["brown trout", "grayling", "chub"]
+    },
+    {
+      "name": "Bewl Water, Kent",
+      "type": "reservoir",
+      "key": "bewl_water", 
+      "description": "A large reservoir offering boat and bank fishing in beautiful Kent countryside",
+      "difficulty": "moderate",
+      "fish_types": ["rainbow trout", "brown trout", "pike", "perch"]
+    },
+    {
+      "name": "Chew Valley Lake, Somerset",
+      "type": "reservoir",
+      "key": "chew_reservoir",
+      "description": "A renowned stillwater fishery in the Mendip Hills, famous for large trout",
+      "difficulty": "challenging", 
+      "fish_types": ["rainbow trout", "brown trout", "pike"]
+    },
+    {
+      "name": "River Kennet, Berkshire",
+      "type": "river",
+      "key": "river_kennet",
+      "description": "A classic chalk stream with gin-clear water and selective trout",
+      "difficulty": "challenging",
+      "fish_types": ["brown trout", "grayling", "roach", "pike"]
+    }
+  ]
+}

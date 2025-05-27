@@ -1,0 +1,556 @@
+{
+  "objects": {
+    "rod": {
+      "description": "Harvey's Allcocks Harvey Torbett split cane rod",
+      "aliases": ["fishing rod", "pole"],
+      "properties": {
+        "assembled": false,
+        "quality": "excellent"
+      },
+      "interactions": {
+        "attach": {
+          "conditions": {
+            "assembled": false
+          },
+          "success_chance": 0.8,
+          "outcomes": {
+            "success": {
+              "message": "You expertly assemble your Allcocks Harvey Torbett rod. The honey-colored bamboo gleams in the morning light.",
+              "effects": {
+                "determination": 8,
+                "dignity": 5,
+                "academic_reputation": 3
+              },
+              "property_changes": {
+                "assembled": true
+              },
+              "game_state_changes": {
+                "rod_attached": true
+              }
+            },
+            "failure": {
+              "message": "The rod sections refuse to fit together properly. After ten minutes of wrestling, you realize you've been trying to attach the handle to itself.",
+              "effects": {
+                "determination": -5,
+                "dignity": -8
+              },
+              "triggers": ["escalate_chaos"]
+            }
+          }
+        },
+        "examine": {
+          "message": "Harvey's Allcocks Harvey Torbett split cane rod gleams in the light, a testament to fine British craftsmanship.",
+          "effects": {
+            "inspiration_level": 2
+          }
+        },
+        "cast": {
+          "requires": ["rod_attached"],
+          "success_chance": 0.3,
+          "outcomes": {
+            "success": {
+              "message": "Miraculous! Harvey executes a perfect cast, the line unfurling like poetry in motion!",
+              "effects": {
+                "determination": 15,
+                "inspiration_level": 15
+              },
+              "game_state_changes": {
+                "cast_made": true
+              }
+            },
+            "failure": {
+              "message_pool": "cast_mishaps",
+              "triggers": ["escalate_chaos"]
+            }
+          }
+        },
+        "eat": {
+          "message": "Harvey examines his rod thoughtfully. 'While bamboo is technically edible, I suspect this particular specimen would be rather expensive roughage.'",
+          "effects": {
+            "determination": -3,
+            "dignity": -5,
+            "inspiration_level": 2
+          }
+        }
+      }
+    },
+    "fly": {
+      "description": "A delicate artificial fly",
+      "aliases": ["lure", "bait"],
+      "interactions": {
+        "attach": {
+          "requires": ["rod_attached"],
+          "success_chance": 0.75,
+          "outcomes": {
+            "success": {
+              "message": "The fly attaches with surgical precision. Your knot would make a sailor weep with envy.",
+              "effects": {
+                "determination": 5,
+                "dignity": 4
+              },
+              "game_state_changes": {
+                "fly_attached": true
+              }
+            },
+            "failure": {
+              "message": "After twenty minutes of creative cursing, you've tied seventeen knots, none involving the fly.",
+              "effects": {
+                "determination": -8,
+                "dignity": -10
+              }
+            }
+          }
+        },
+        "examine": {
+          "message": "The fly is a masterpiece of the tier's art - delicate feathers and precise construction designed to fool the most discerning trout.",
+          "effects": {
+            "inspiration_level": 3
+          }
+        },
+        "eat": {
+          "message": "Harvey considers the fly thoughtfully. 'While technically protein, I believe this particular morsel is better suited to aquatic rather than human consumption. Also, it took me 2 hours to make.'",
+          "effects": {
+            "determination": -2,
+            "dignity": -8,
+            "inspiration_level": 5
+          }
+        },
+        "cast": {
+          "message": "Harvey attempts to cast the fly by hand. It travels approximately eighteen inches before landing with all the grace of a confused moth.",
+          "effects": {
+            "determination": -10,
+            "dignity": -15
+          }
+        }
+      }
+    },
+    "sandwich": {
+      "description": "Harvey's cucumber sandwich",
+      "aliases": ["lunch", "food"],
+      "interactions": {
+        "eat": {
+          "conditions": {
+            "sandwich_status": "dry"
+          },
+          "message": "You enjoy a perfectly adequate sandwich. The cucumber is crisp, the butter properly applied. For a moment, all is right with the world.",
+          "effects": {
+            "determination": 10,
+            "dignity": 5
+          },
+          "game_state_changes": {
+            "sandwich_status": "eaten"
+          }
+        },
+        "examine": {
+          "message": "A properly constructed cucumber sandwich - crusts removed, butter applied with mathematical precision. Mother would be proud.",
+          "effects": {
+            "dignity": 2,
+            "inspiration_level": 1
+          }
+        },
+        "cast": {
+          "message": "In a moment of desperation, Harvey hurls his sandwich into the water. It lands with a pathetic splash. 'Good God, what have I done? That was my lunch!' The ducks seem pleased with this development.",
+          "effects": {
+            "determination": -15,
+            "dignity": -20,
+            "inspiration_level": 8
+          },
+          "game_state_changes": {
+            "sandwich_status": "sacrificed to the river gods"
+          }
+        },
+        "attach": {
+          "message": "Harvey attempts to attach his sandwich to the fishing line. 'Perhaps the trout prefer traditional British cuisine?' The sandwich dangles wetly, looking deeply offended.",
+          "effects": {
+            "determination": -8,
+            "dignity": -12,
+            "inspiration_level": 10
+          },
+          "game_state_changes": {
+            "sandwich_status": "repurposed as bait",
+            "fly_attached": false
+          }
+        }
+      }
+    },
+    "thermos": {
+      "description": "Harvey's well-worn thermos flask",
+      "aliases": ["flask", "bottle"],
+      "interactions": {
+        "drink": {
+          "conditions": {
+            "thermos_remaining": ">0"
+          },
+          "outcomes": {
+            "tea_discovery": {
+              "condition_check": "thermos_contents.type == 'tea'",
+              "message": "Harvey takes a satisfying sip of {thermos_contents.name}. Proper tea makes everything more manageable.",
+              "effects": {
+                "determination": 8,
+                "dignity": 5
+              },
+              "game_state_changes": {
+                "thermos_remaining": -1
+              }
+            },
+            "brandy_discovery": {
+              "condition_check": "thermos_contents.type == 'brandy'",
+              "message": "Harvey takes a sip and his eyes widen in delighted surprise! 'Good heavens! Grandfather's emergency brandy! How wonderfully unexpected!'",
+              "effects": {
+                "determination": 15,
+                "dignity": 10,
+                "inspiration_level": 20,
+                "brandy_level": 1
+              },
+              "game_state_changes": {
+                "thermos_remaining": -1
+              }
+            }
+          }
+        },
+        "examine": {
+          "message": "The thermos has seen many fishing expeditions. Harvey wonders what delights await within.",
+          "effects": {
+            "inspiration_level": 2
+          }
+        },
+        "cast": {
+          "message": "Harvey hurls his thermos into the water in a fit of angling madness! It lands with a tremendous splash. 'Oh blast! My tea!' He immediately begins calculating the trajectory for a rescue mission.",
+          "effects": {
+            "determination": -20,
+            "dignity": -25,
+            "inspiration_level": 15
+          },
+          "game_state_changes": {
+            "thermos_status": "floating downstream",
+            "thermos_remaining": 0
+          }
+        },
+        "attach": {
+          "message": "Harvey attempts to attach his thermos to the fishing line. 'Perhaps I can create the world's first beverage-based angling system!' The thermos dangles precariously, looking like a very confused depth charge.",
+          "effects": {
+            "determination": -10,
+            "dignity": -15,
+            "inspiration_level": 20,
+            "academic_reputation": 5
+          },
+          "game_state_changes": {
+            "fly_attached": false
+          }
+        }
+      }
+    },
+    "hat": {
+      "description": "Harvey's distinguished angling hat",
+      "aliases": ["cap"],
+      "interactions": {
+        "examine": {
+          "message": "A proper gentleman's fishing hat, weathered by many expeditions and decorated with the occasional fly that missed its target.",
+          "effects": {
+            "dignity": 3,
+            "inspiration_level": 2
+          }
+        },
+        "eat": {
+          "message": "Harvey eyes his hat speculatively. 'While felt is technically organic, I suspect my milliner would be deeply offended. Also, it tastes of river water and disappointment.'",
+          "effects": {
+            "determination": -5,
+            "dignity": -12,
+            "inspiration_level": 8
+          }
+        },
+        "cast": {
+          "message": "Harvey hurls his hat into the water like a fabric frisbee! 'Take that, you aquatic scoundrels!' The hat floats away with wounded dignity while Harvey immediately regrets this decision.",
+          "effects": {
+            "determination": -12,
+            "dignity": -20,
+            "inspiration_level": 10
+          },
+          "game_state_changes": {
+            "hat_status": "floating away with wounded dignity"
+          }
+        },
+        "attach": {
+          "message": "Harvey attempts to attach his hat to the fishing line. 'Perhaps the fish will mistake it for an enormous, fashionable insect!' The hat dangles wetly, looking deeply undignified.",
+          "effects": {
+            "determination": -8,
+            "dignity": -18,
+            "inspiration_level": 12
+          },
+          "game_state_changes": {
+            "hat_status": "repurposed as oversized lure",
+            "fly_attached": false
+          }
+        }
+      }
+    },
+    "water": {
+      "description": "The flowing water of the river",
+      "interactions": {
+        "examine": {
+          "message": "The water flows with the kind of purposeful determination Harvey wishes he possessed.",
+          "effects": {
+            "inspiration_level": 3
+          }
+        },
+        "drink": {
+          "message": "Harvey cups some river water in his hands and takes a tentative sip. 'Hmm. Notes of limestone, hints of watercress, with a lingering finish of... is that duck?'",
+          "effects": {
+            "determination": 3,
+            "dignity": -5,
+            "inspiration_level": 5
+          }
+        },
+        "eat": {
+          "message": "Harvey contemplates the philosophical impossibility of eating water. 'One cannot consume that which flows through one's fingers, much like success in angling.'",
+          "effects": {
+            "determination": 2,
+            "dignity": 3,
+            "inspiration_level": 8,
+            "academic_reputation": 3
+          }
+        }
+      }
+    },
+    "duck": {
+      "description": "A local duck observing Harvey's angling attempts",
+      "aliases": ["waterfowl", "bird"],
+      "interactions": {
+        "examine": {
+          "message": "The duck watches Harvey's angling efforts with what appears to be professional interest mixed with mild concern for his mental state.",
+          "effects": {
+            "inspiration_level": 4,
+            "dignity": -2
+          }
+        },
+        "eat": {
+          "message": "Harvey eyes the duck thoughtfully. 'While duck à l'orange is delightful, I suspect this particular specimen would be considerably improved by proper preparation. Also, it's still using its legs.'",
+          "effects": {
+            "determination": -3,
+            "dignity": -8,
+            "inspiration_level": 6
+          }
+        },
+        "attach": {
+          "message": "Harvey approaches the duck with his fishing line. 'Perhaps you'd care to assist in this angling endeavor?' The duck gives him a look that suggests it has serious concerns about his mental state.",
+          "effects": {
+            "determination": -10,
+            "dignity": -20,
+            "inspiration_level": 15
+          }
+        },
+        "cast": {
+          "message": "Harvey makes throwing motions at the duck, who regards this with the disdain of a creature that has seen many frustrated anglers. The duck paddles away, shaking its head sadly.",
+          "effects": {
+            "determination": -8,
+            "dignity": -15,
+            "inspiration_level": 8
+          }
+        }
+      }
+    },
+    "boot": {
+      "description": "An old boot that Harvey has somehow caught",
+      "aliases": ["shoe"],
+      "interactions": {
+        "examine": {
+          "message": "A waterlogged boot of mysterious provenance. Harvey wonders about its previous owner and whether they're hopping around somewhere looking for it.",
+          "effects": {
+            "inspiration_level": 5,
+            "dignity": -1
+          }
+        },
+        "eat": {
+          "message": "Harvey examines the boot with scholarly interest. 'While leather is technically edible after proper preparation, I suspect this particular specimen has been marinating in river water for rather too long.'",
+          "effects": {
+            "determination": -5,
+            "dignity": -10,
+            "inspiration_level": 8
+          }
+        },
+        "cast": {
+          "message": "Harvey hurls the boot back into the water with considerable force. 'Return to your watery domain!' It lands with a satisfying splash. At least something went where it was supposed to today.",
+          "effects": {
+            "determination": 5,
+            "dignity": 2,
+            "inspiration_level": 3
+          }
+        },
+        "attach": {
+          "message": "Harvey attempts to attach the boot to his line. 'Perhaps I can create the world's first footwear-based angling system!' The boot dangles wetly, looking like a very confused depth charge.",
+          "effects": {
+            "determination": -8,
+            "dignity": -12,
+            "inspiration_level": 15,
+            "academic_reputation": 3
+          }
+        }
+      }
+    },
+    "fish": {
+      "description": "A fish (if Harvey has actually caught one)",
+      "aliases": ["trout", "catch"],
+      "interactions": {
+        "examine": {
+          "message": "A magnificent specimen! Harvey admires its sleek form and wonders if it appreciates the scholarly precision that led to its capture.",
+          "effects": {
+            "determination": 10,
+            "dignity": 8,
+            "inspiration_level": 12,
+            "academic_reputation": 5
+          }
+        },
+        "eat": {
+          "message": "Harvey eyes the fish thoughtfully. 'While sushi is fashionable, I believe this particular specimen would benefit enormously from proper cooking. Also, it's still looking at me.'",
+          "effects": {
+            "determination": -2,
+            "dignity": -5,
+            "inspiration_level": 8
+          }
+        },
+        "cast": {
+          "message": "Harvey hurls the fish back into the water! 'Return to your aquatic studies!' The fish disappears with what might have been a grateful flick of its tail. Harvey immediately wonders if he's made a terrible mistake.",
+          "effects": {
+            "determination": 8,
+            "dignity": 10,
+            "inspiration_level": 15,
+            "academic_reputation": 8
+          },
+          "game_state_changes": {
+            "fish_caught": -1
+          }
+        }
+      }
+    },
+    "notebook": {
+      "description": "Harvey's leather-bound research notebook",
+      "aliases": ["journal", "book"],
+      "interactions": {
+        "examine": {
+          "message": "The notebook contains Harvey's meticulous observations on angling theory, fish psychology, and the philosophical implications of recreational failure.",
+          "effects": {
+            "inspiration_level": 8,
+            "academic_reputation": 3
+          }
+        },
+        "eat": {
+          "message": "Harvey considers his notebook. 'While the leather binding might provide some nutrition, I suspect my research notes would prove rather indigestible. Also, this represents thirty years of scholarly observation.'",
+          "effects": {
+            "determination": -8,
+            "dignity": -15,
+            "inspiration_level": 12,
+            "academic_reputation": -5
+          }
+        },
+        "cast": {
+          "message": "Harvey hurls his notebook into the water! 'Perhaps the fish will appreciate my research!' The notebook lands with a splash, its pages fluttering like the wings of a dying academic bird. Harvey immediately realizes the magnitude of his error.",
+          "effects": {
+            "determination": -25,
+            "dignity": -30,
+            "inspiration_level": 20,
+            "academic_reputation": -15
+          }
+        }
+      }
+    }
+  },
+  
+  "verbs": {
+    "attach": {
+      "description": "Connect or fasten something",
+      "generic_response": "Harvey cannot attach {object} - it's either already attached, inappropriate for attachment, or has strong opinions about being attached to things.",
+      "requires_object": true
+    },
+    "examine": {
+      "description": "Look closely at something",
+      "generic_response": "Harvey examines {object} with scholarly interest, making mental notes for future reference.",
+      "requires_object": true
+    },
+    "cast": {
+      "description": "Throw or project something",
+      "generic_response": "Harvey hurls {object} with the desperation of a man who has run out of conventional options. The results are predictably chaotic.",
+      "requires_object": false,
+      "default_object": "rod"
+    },
+    "eat": {
+      "description": "Consume something",
+      "generic_response": "Harvey considers eating {object} but decides that even his current circumstances don't justify such culinary desperation.",
+      "requires_object": true
+    },
+    "drink": {
+      "description": "Consume a liquid",
+      "generic_response": "Harvey cannot drink {object} - it's either not liquid, not potable, or has already been consumed by local wildlife.",
+      "requires_object": true
+    }
+  },
+
+  "message_pools": {
+    "cast_mishaps": [
+      "Your cast goes awry, landing in a nearby bush. The bush seems offended.",
+      "The line tangles mid-cast, creating a three-dimensional puzzle that would challenge Stephen Hawking.",
+      "Your cast achieves new heights of creative failure, somehow hooking your own hat.",
+      "The fly line develops sentience and wraps itself around everything except what you intended.",
+      "Your cast defies several laws of physics, creating a temporal paradox."
+    ],
+    "successful_catches": [
+      "Extraordinary! A magnificent trout rises to your fly! Harvey's academic theories are vindicated!",
+      "Success! A beautiful grayling takes the bait, clearly impressed by Harvey's scholarly approach!",
+      "Triumph! A fish of considerable intelligence has chosen to engage in this aquatic discourse!"
+    ],
+    
+    "unusual_catches": [
+      "You reel in... a boot. It's not even a matching pair with the one you caught yesterday.",
+      "Success! You've caught a magnificent... stick. The stick appears unimpressed by your angling prowess.",
+      "You reel in what might be the world's most philosophical piece of pond weed.",
+      "A soggy newspaper emerges from the depths, featuring yesterday's cricket scores.",
+      "You've successfully caught a rubber duck. It squeaks accusingly.",
+      "An old tin can surfaces, containing what appears to be a strongly worded letter to the River Authority.",
+      "You reel in a small traffic cone. Harvey wonders how it got there and whether he should report it to the authorities.",
+      "A waterlogged teddy bear emerges from the depths, looking like it has seen things that cannot be unseen."
+    ],
+
+    "note_taking_activities": [
+      "Harvey carefully documents the precise angle of that last catastrophic cast for his upcoming paper on 'Geometric Failures in Fly Fishing.'",
+      "You sketch the trajectory of your fly line, noting its remarkable resemblance to a Fibonacci spiral gone wrong.",
+      "Harvey records detailed observations about the apparent intelligence of local waterfowl.",
+      "You begin drafting a footnote about the philosophical implications of fishing in a universe with other plans."
+    ],
+
+    "brandy_responses_merry": [
+      "Harvey feels considerably more optimistic about his angling prospects! *slight wobble*",
+      "The world seems a much more reasonable place after that delightful discovery!",
+      "Harvey begins humming a jaunty tune while adjusting his equipment with renewed vigor."
+    ],
+
+    "brandy_responses_jolly": [
+      "Harvey declares this to be 'absolutely the finest day for fishing in recorded history!' *hic*",
+      "Everything seems wonderfully amusing to Harvey right now, including his own fishing technique.",
+      "Harvey begins composing what he believes to be brilliant poetry about the nature of angling."
+    ],
+
+    "brandy_responses_tipsy": [
+      "Harvey is having the most marvelous time and wants everyone to know it! *hic*",
+      "The fish are clearly his very best friends, just playing a delightful game of hide and seek!",
+      "Harvey attempts to lecture a passing duck on the finer points of academic methodology."
+    ]
+  },
+
+  "triggers": {
+    "escalate_chaos": {
+      "description": "Increase mishap level and reduce stats",
+      "effects": {
+        "mishap_level": 1,
+        "determination": -5,
+        "dignity": -3
+      }
+    },
+    "add_fish_to_catch": {
+      "description": "Add a real fish to the catch list",
+      "custom_function": "add_fish_catch"
+    },
+    "add_unusual_to_catch": {
+      "description": "Add an unusual item to the catch list", 
+      "custom_function": "add_unusual_catch"
+    }
+  }
+}

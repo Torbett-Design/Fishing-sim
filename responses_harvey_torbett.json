@@ -1,0 +1,327 @@
+{
+  "harvey_quotes": {
+    "fishing_wisdom": [
+      {
+        "text": "As I detailed in 'The Handbook for Fishermen': 'The successful angler must first master his equipment before attempting to master the fish. One cannot expect precision from chaos.'",
+        "effects": {
+          "determination": 5,
+          "dignity": 3
+        }
+      },
+      {
+        "text": "From Chapter Three of 'The Techniques of Ledgering': 'Patience in angling is not merely a virtue - it is the fundamental requirement. The fish will come to the prepared angler, but never to the hurried one.'",
+        "effects": {
+          "determination": 8,
+          "dignity": 2
+        }
+      },
+      {
+        "text": "I'm reminded of my observations in 'Coarse Fishing': 'The angler who understands his quarry's behavior has already won half the battle. The other half, regrettably, involves actually catching the fish.'",
+        "effects": {
+          "determination": 6,
+          "inspiration_level": 4
+        }
+      },
+      {
+        "text": "As noted in 'The Angler's Freshwater Fishes': 'Each species requires its own approach, its own technique. The wise angler adapts his method to his quarry, not the reverse.'",
+        "effects": {
+          "determination": 7,
+          "academic_reputation": 3
+        }
+      },
+      {
+        "text": "As I wrote in 'Meditations on the Mayfly': 'The trout, like the perfect soufflé, cannot be rushed, bullied, or reasoned with. It exists in its own temporal dimension, where Tuesday might well be next Thursday, and patience is not a virtue but a fundamental law of physics.'",
+        "effects": {
+          "determination": 5,
+          "dignity": 3
+        }
+      },
+      {
+        "text": "I'm reminded of Chapter Seven of my seminal work 'The Philosophical Angler': 'To fish is to engage in a conversation with the universe, though admittedly the universe seems to have a rather poor grasp of English and an unfortunate tendency to change the subject mid-sentence.'",
+        "effects": {
+          "determination": 8,
+          "dignity": 2
+        }
+      },
+      {
+        "text": "As I observed in 'Chalk Stream Chronicles': 'The perfect cast exists in a quantum state - simultaneously brilliant and catastrophic until observed by a witness, at which point it invariably collapses into the latter.'",
+        "effects": {
+          "determination": -5,
+          "dignity": 5
+        }
+      }
+    ],
+    "non_fishing_wisdom": [
+      {
+        "text": "Fortunately, my research for 'Swimming and Diving' emphasized that proper technique in water begins with remaining calm - advice that proves unexpectedly relevant in angling mishaps.",
+        "effects": {
+          "dignity": 8,
+          "determination": 5
+        }
+      },
+      {
+        "text": "As I wrote in 'Swimming and Diving': 'Buoyancy is as much about mental composure as physical technique' - wisdom that applies equally to unexpected aquatic encounters while fishing.",
+        "effects": {
+          "dignity": 6,
+          "determination": 8
+        }
+      },
+      {
+        "text": "This reminds me of my experiences researching 'A Gentleman's Guide to Competitive Croquet' - sometimes the most elegant strategy is to accept that the laws of physics are merely suggestions.",
+        "effects": {
+          "determination": 3,
+          "dignity": -2
+        }
+      },
+      {
+        "text": "As I discovered while writing 'The Etiquette of Afternoon Tea in Unusual Circumstances': 'When faced with the impossible, the British response is to put the kettle on and reassess the situation over a proper cup of Earl Grey.'",
+        "effects": {
+          "determination": 10,
+          "dignity": 5
+        }
+      },
+      {
+        "text": "I'm reminded of my research for 'Morris Dancing: A Sociological Study' - sometimes one must embrace the absurd with the same dignity one would bring to a state dinner.",
+        "effects": {
+          "determination": 5,
+          "dignity": -8
+        }
+      },
+      {
+        "text": "This situation calls to mind my work on 'The Psychology of Queue Formation' - the British excel at maintaining composure in the face of inexplicable delays and cosmic injustice.",
+        "effects": {
+          "determination": 8,
+          "dignity": 3
+        }
+      },
+      {
+        "text": "As I noted in 'Gardening with Hostile Vegetables': 'Sometimes nature has opinions that differ markedly from our own, and the wise man learns to negotiate rather than dictate.'",
+        "effects": {
+          "determination": 6,
+          "dignity": 2
+        }
+      }
+    ],
+    "literary_observations": [
+      {
+        "text": "I find myself composing the opening lines of my next work: 'Chapter One: In which our hero discovers that trout possess a sense of humor, though not necessarily a kind one.'",
+        "effects": {
+          "determination": 5,
+          "dignity": 3
+        }
+      },
+      {
+        "text": "This experience will undoubtedly feature in my upcoming memoir 'Confessions of a Gentleman Angler: How I Learned to Stop Worrying and Love the Chaos.'",
+        "effects": {
+          "determination": 8,
+          "dignity": 1
+        }
+      },
+      {
+        "text": "I'm mentally drafting a letter to The Times: 'Sir, I write to inform your readers that the laws of probability appear to have been suspended in the vicinity of Hampshire's chalk streams...'",
+        "effects": {
+          "determination": 3,
+          "dignity": 5
+        }
+      },
+      {
+        "text": "Perhaps this calls for a revised edition of 'The Handbook for Fishermen' - Chapter 12: 'When Equipment Develops Consciousness and Chooses Rebellion.'",
+        "effects": {
+          "determination": 6,
+          "academic_reputation": 4
+        }
+      },
+      {
+        "text": "I'm beginning to think my next work should be 'The Techniques of Ledgering: Advanced Studies in Cosmic Disappointment' - clearly there's more to learn.",
+        "effects": {
+          "determination": 4,
+          "inspiration_level": 8
+        }
+      }
+    ]
+  },
+  "harvey_reactions": {
+    "mild_frustration": [
+      {
+        "text": "Harvey adjusts his spectacles and mutters something about the declining standards of modern trout education.",
+        "effects": {
+          "dignity": -2
+        }
+      },
+      {
+        "text": "You pause to make a note in your leather-bound journal: 'Day 1: The fish appear to have formed a union.'",
+        "effects": {
+          "determination": 2
+        }
+      },
+      {
+        "text": "Harvey sighs deeply and begins mentally composing a strongly-worded letter to the River Authority about the behavior of local wildlife.",
+        "effects": {
+          "dignity": 1
+        }
+      },
+      {
+        "text": "Harvey reflects that his techniques, so carefully documented in 'The Techniques of Ledgering,' seem to require significant revision for modern conditions.",
+        "effects": {
+          "determination": 3,
+          "academic_reputation": -1
+        }
+      }
+    ],
+    "philosophical_acceptance": [
+      {
+        "text": "You reflect that this experience will make an excellent chapter in your next book, tentatively titled 'When Rivers Attack: A Gentleman's Guide to Aquatic Rebellion.'",
+        "effects": {
+          "determination": 8,
+          "dignity": 3
+        }
+      },
+      {
+        "text": "Harvey nods sagely, recognizing this as yet another example of what he terms 'The Fundamental Perversity of the Natural World' - a concept that will feature heavily in his next academic paper.",
+        "effects": {
+          "determination": 5,
+          "dignity": 5
+        }
+      },
+      {
+        "text": "You make a mental note to add this incident to your growing collection of 'Inexplicable Events That Prove the Universe Has a Sense of Humor' - already running to seventeen volumes.",
+        "effects": {
+          "determination": 6,
+          "dignity": 2
+        }
+      },
+      {
+        "text": "Harvey considers that perhaps 'The Angler's Freshwater Fishes' needs a supplementary volume: 'When Freshwater Fishes Angle Back.'",
+        "effects": {
+          "determination": 7,
+          "inspiration_level": 5
+        }
+      }
+    ],
+    "scholarly_excitement": [
+      {
+        "text": "Harvey's eyes light up with scholarly enthusiasm as he recognizes this as a perfect example of what he calls 'Chaos Theory in Practical Application' - definitely going in the next edition of his textbook.",
+        "effects": {
+          "determination": 12,
+          "dignity": 4
+        }
+      },
+      {
+        "text": "You begin mentally drafting a paper for the Royal Society: 'Observations on the Apparent Sentience of Fishing Equipment: A Preliminary Study.'",
+        "effects": {
+          "determination": 10,
+          "dignity": 6
+        }
+      },
+      {
+        "text": "Harvey pulls out his notebook and begins sketching diagrams, muttering excitedly about 'unprecedented behavioral patterns in aquatic ecosystems' and 'the need for a complete revision of angling theory.'",
+        "effects": {
+          "determination": 15,
+          "dignity": 3
+        }
+      },
+      {
+        "text": "This is exactly the kind of field research that made 'Coarse Fishing' such a comprehensive guide! Harvey begins documenting everything with scientific precision.",
+        "effects": {
+          "determination": 12,
+          "academic_reputation": 8,
+          "inspiration_level": 10
+        }
+      }
+    ]
+  },
+  "harvey_books": {
+    "fishing_titles": [
+      "The Angler's Freshwater Fishes (1961)",
+      "Coarse Fishing: A Step-by-Step Book (1961)", 
+      "The Techniques of Ledgering (1960)",
+      "The Handbook for Fishermen (1967)",
+      "Angling for Coarse Fish - Entirely Revised Edition (1962)",
+      "The Philosophical Angler: Meditations on Mayflies and Mortality",
+      "Chalk Stream Chronicles: A Gentleman's Guide to Aquatic Disappointment", 
+      "The Zen of Fly Fishing: Finding Inner Peace Through Outer Chaos",
+      "Trout Psychology: Understanding the Piscine Mind",
+      "The Complete Guide to Unsuccessful Angling",
+      "Meditations on the Mayfly: Essays on Ephemeral Beauty",
+      "The Art of Fishing Badly: A Master Class in Creative Failure"
+    ],
+    "non_fishing_titles": [
+      "Swimming and Diving (New Sports Library No. 8, 1961)",
+      "Advanced Aquatic Techniques and Safety",
+      "A Gentleman's Guide to Competitive Croquet",
+      "The Etiquette of Afternoon Tea in Unusual Circumstances", 
+      "Morris Dancing: A Sociological Study",
+      "The Psychology of Queue Formation",
+      "Gardening with Hostile Vegetables",
+      "The Complete Guide to British Weather Complaints",
+      "Birdwatching for the Philosophically Inclined",
+      "The Art of Polite Disagreement with Inanimate Objects",
+      "A Treatise on the Proper Maintenance of Tweed",
+      "The Social Dynamics of Village Fête Organization"
+    ]
+  },
+  "harvey_academic_moments": [
+    {
+      "text": "Harvey pauses to deliver an impromptu lecture to a passing duck about the sociological implications of waterfowl behavior in post-industrial Britain. The duck seems unimpressed but politely attentive.",
+      "effects": {
+        "determination": 5,
+        "dignity": -3
+      }
+    },
+    {
+      "text": "You find yourself analyzing the situation through the lens of your doctoral thesis on 'The Intersection of Chaos Theory and Traditional British Pastimes.' This is either brilliant research or a complete mental breakdown.",
+      "effects": {
+        "determination": 8,
+        "dignity": 2
+      }
+    },
+    {
+      "text": "Harvey begins categorizing the day's events according to his proprietary 'Torbett Scale of Angling Absurdity' - a system he developed after his infamous encounter with the telepathic pike of Loch Lomond.",
+      "effects": {
+        "determination": 6,
+        "dignity": 4
+      }
+    },
+    {
+      "text": "Harvey reflects that his grandfather would have appreciated this moment - the intersection of practical angling knowledge and the fundamental unpredictability of nature, as documented across five decades of fishing literature.",
+      "effects": {
+        "determination": 8,
+        "dignity": 6,
+        "academic_reputation": 5
+      }
+    },
+    {
+      "text": "Drawing on his expertise from 'Swimming and Diving,' Harvey calculates the precise buoyancy requirements should this angling expedition become an unexpected aquatic adventure.",
+      "effects": {
+        "determination": 6,
+        "dignity": 4,
+        "inspiration_level": 7
+      }
+    }
+  ],
+  "grandfather_references": [
+    {
+      "text": "Harvey pauses to reflect that somewhere, there's a fly fishing rod bearing the Torbett name - though its namesake's current performance might not be the best advertisement for the brand.",
+      "effects": {
+        "academic_reputation": 5,
+        "dignity": -3,
+        "inspiration_level": 8
+      }
+    },
+    {
+      "text": "The irony is not lost on Harvey that his expertise in swimming technique (as documented in his 1961 textbook) is proving more immediately relevant than his angling knowledge.",
+      "effects": {
+        "dignity": 10,
+        "determination": 5
+      }
+    },
+    {
+      "text": "Harvey considers that the Torbett family legacy in angling literature may need a new chapter: 'When Theory Meets Chaotic Reality: A Humbling Experience.'",
+      "effects": {
+        "determination": 6,
+        "academic_reputation": 3,
+        "inspiration_level": 10
+      }
+    }
+  ]
+}
