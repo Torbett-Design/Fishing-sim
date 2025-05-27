@@ -48,22 +48,3 @@ if st.button("Execute Command") and command:
     
     st.rerun()
 
-# Quick action buttons
-st.subheader("Quick Actions")
-col1, col2, col3, col4 = st.columns(4)
-with col1:
-    if st.button("Cast Rod"):
-        st.session_state.command_input = "cast rod"
-        st.rerun()
-with col2:
-    if st.button("Attach Fly"):
-        st.session_state.command_input = "attach fly"
-        st.rerun()
-with col3:
-    if st.button("Drink Thermos"):
-        st.session_state.command_input = "drink thermos"
-        st.rerun()
-with col4:
-    if st.button("Show Stats"):
-        st.session_state.command_input = "stats"
-        st.rerun()
